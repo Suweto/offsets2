@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-22 00:27:51.721970600 UTC
+// 2025-05-08 02:20:48.817809100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1547,7 +1547,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CMotionGraphUpdateNode {
-            public const nint m_pMotionGraph = 0x58; // 
+            public const nint m_pMotionGraph = 0x58; // CSmartPtr<CMotionGraph>
         }
         // Parent: CNmFloatValueNode__CDefinition
         // Field count: 2
@@ -2783,7 +2783,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_Transform = 0x0; // CTransform
             public const nint m_Name = 0x20; // CUtlString
             public const nint m_nParent = 0x28; // int32
-            public const nint m_refModel = 0x30; // 
+            public const nint m_refModel = 0x30; // CStrongHandle<InfoForResourceTypeCModel>
         }
         // Parent: CNmIDValueNode__CDefinition
         // Field count: 2
@@ -2859,7 +2859,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CHitBoxSetList {
-            public const nint m_HitBoxSets = 0x0; // CUtlVector<CHitBoxSet>
+            public const nint m_HitBoxSets = 0x0; // 
         }
         // Parent: None
         // Field count: 1
@@ -3548,7 +3548,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_refPhysicsData = 0xF0; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
             public const nint m_refPhysicsHitboxData = 0x108; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
             public const nint m_refAnimGroups = 0x120; // CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>>
-            public const nint m_refSequenceGroups = 0x138; // 
+            public const nint m_refSequenceGroups = 0x138; // CUtlVector<CStrongHandle<InfoForResourceTypeCSequenceGroupData>>
             public const nint m_meshGroups = 0x150; // CUtlVector<CUtlString>
             public const nint m_materialGroups = 0x168; // CUtlVector<MaterialGroup_t>
             public const nint m_nDefaultMeshGroupMask = 0x180; // uint64
@@ -3834,7 +3834,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimReplayFrame {
-            public const nint m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
+            public const nint m_inputDataBlocks = 0x10; // 
             public const nint m_instanceData = 0x28; // CUtlBinaryBlock
             public const nint m_startingLocalToWorldTransform = 0x40; // CTransform
             public const nint m_localToWorldTransform = 0x60; // CTransform
@@ -3912,7 +3912,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CMovementComponentUpdater {
-            public const nint m_motors = 0x30; // CUtlVector<CSmartPtr<CAnimMotorUpdaterBase>>
+            public const nint m_motors = 0x30; // 
             public const nint m_facingDamping = 0x48; // CAnimInputDamping
             public const nint m_nDefaultMotorIndex = 0x60; // int32
             public const nint m_flDefaultRunSpeed = 0x64; // float32
@@ -3979,7 +3979,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CDemoSettingsComponentUpdater {
-            public const nint m_settings = 0x30; // CAnimDemoCaptureSettings
+            public const nint m_settings = 0x30; // 
         }
         // Parent: None
         // Field count: 3
@@ -4023,7 +4023,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CFootStride {
             public const nint m_definition = 0x0; // CFootCycleDefinition
-            public const nint m_trajectories = 0x40; // 
+            public const nint m_trajectories = 0x40; // CFootTrajectories
         }
         // Parent: CNmEvent
         // Field count: 2
@@ -4694,7 +4694,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class SkeletonDemoDb_t {
             public const nint m_AnimCaptures = 0x0; // CUtlVector<SkeletonAnimCapture_t*>
-            public const nint m_CameraTrack = 0x18; // CUtlVector<SkeletonAnimCapture_t::Camera_t>
+            public const nint m_CameraTrack = 0x18; // 
             public const nint m_flRecordingTime = 0x30; // float32
         }
         // Parent: CNmBoolValueNode__CDefinition
@@ -4744,7 +4744,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_sceneObjects = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
             public const nint m_constraints = 0x78; // CUtlLeanVector<CBaseConstraint*>
             public const nint m_skeleton = 0x88; // CRenderSkeleton
-            public const nint m_meshDeformParams = 0x1A8; // DynamicMeshDeformParams_t
+            public const nint m_meshDeformParams = 0x1A8; // 
             public const nint m_pGroomData = 0x1B8; // CRenderGroom*
         }
         // Parent: None
@@ -5547,7 +5547,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_scriptManager = 0x70; // CSmartPtr<CAnimScriptManager>
             public const nint m_settings = 0x78; // CAnimGraphSettingsManager
             public const nint m_pStaticPoseCache = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
-            public const nint m_pSkeleton = 0xB0; // 
+            public const nint m_pSkeleton = 0xB0; // CSmartPtr<CAnimSkeleton>
             public const nint m_rootNodePath = 0xB8; // CAnimNodePath
         }
         // Parent: None
@@ -6247,7 +6247,7 @@ namespace CS2Dumper.Schemas {
         public static class CModelConfigElement_AttachedModel {
             public const nint m_InstanceName = 0x48; // CUtlString
             public const nint m_EntityClass = 0x50; // CUtlString
-            public const nint m_hModel = 0x58; // 
+            public const nint m_hModel = 0x58; // CStrongHandle<InfoForResourceTypeCModel>
             public const nint m_vOffset = 0x60; // Vector
             public const nint m_aAngOffset = 0x6C; // QAngle
             public const nint m_AttachmentName = 0x78; // CUtlString

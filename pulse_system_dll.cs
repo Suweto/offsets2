@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-22 00:27:51.721970600 UTC
+// 2025-05-08 02:20:48.817809100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -294,7 +294,7 @@ namespace CS2Dumper.Schemas {
         // Field count: 4
         public static class CPulse_OutflowConnection {
             public const nint m_SourceOutflowName = 0x0; // CUtlSymbolLarge
-            public const nint m_nDestChunk = 0x8; // PulseRuntimeChunkIndex_t
+            public const nint m_nDestChunk = 0x8; // 
             public const nint m_nInstruction = 0xC; // int32
             public const nint m_OutflowRegisterMap = 0x10; // PulseRegisterMap_t
         }
@@ -685,7 +685,7 @@ namespace CS2Dumper.Schemas {
         public static class CPulseGraphExecutionHistory {
             public const nint m_nInstanceID = 0x0; // PulseGraphInstanceID_t
             public const nint m_strFileName = 0x8; // CUtlString
-            public const nint m_vecHistory = 0x10; // 
+            public const nint m_vecHistory = 0x10; // CUtlVector<PulseGraphExecutionHistoryEntry_t*>
             public const nint m_mapCellDesc = 0x28; // CUtlOrderedMap<PulseDocNodeID_t,PulseGraphExecutionHistoryNodeDesc_t*>
             public const nint m_mapCursorDesc = 0x50; // CUtlOrderedMap<PulseCursorID_t,PulseGraphExecutionHistoryCursorDesc_t*>
         }
@@ -733,7 +733,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nReg1 = 0xA; // PulseRuntimeRegisterIndex_t
             public const nint m_nReg2 = 0xC; // PulseRuntimeRegisterIndex_t
             public const nint m_nInvokeBindingIndex = 0x10; // PulseRuntimeInvokeIndex_t
-            public const nint m_nChunk = 0x14; // PulseRuntimeChunkIndex_t
+            public const nint m_nChunk = 0x14; // 
             public const nint m_nDestInstruction = 0x18; // int32
             public const nint m_nCallInfoIndex = 0x1C; // PulseRuntimeCallInfoIndex_t
             public const nint m_nConstIdx = 0x20; // PulseRuntimeConstantIndex_t
@@ -748,8 +748,8 @@ namespace CS2Dumper.Schemas {
         public static class CPulse_InvokeBinding {
             public const nint m_RegisterMap = 0x0; // PulseRegisterMap_t
             public const nint m_FuncName = 0x20; // CUtlSymbolLarge
-            public const nint m_nCellIndex = 0x28; // PulseRuntimeCellIndex_t
-            public const nint m_nSrcChunk = 0x2C; // PulseRuntimeChunkIndex_t
+            public const nint m_nCellIndex = 0x28; // 
+            public const nint m_nSrcChunk = 0x2C; // 
             public const nint m_nSrcInstruction = 0x30; // int32
         }
         // Parent: None
@@ -850,7 +850,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulse_DomainValue {
-            public const nint m_nType = 0x0; // 
+            public const nint m_nType = 0x0; // PulseDomainValueType_t
             public const nint m_Value = 0x8; // 
             public const nint m_ExpectedRuntimeType = 0x10; // 
         }
@@ -973,7 +973,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulse_BlackboardReference {
-            public const nint m_hBlackboardResource = 0x0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIPulseGraphDef>>
+            public const nint m_hBlackboardResource = 0x0; // 
             public const nint m_BlackboardResource = 0xE0; // CUtlSymbolLarge
             public const nint m_nNodeID = 0xE8; // PulseDocNodeID_t
             public const nint m_NodeName = 0xF0; // 
@@ -1007,7 +1007,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nEditorNodeID = 0x8; // PulseDocNodeID_t
             public const nint m_RegisterMap = 0x10; // PulseRegisterMap_t
             public const nint m_CallMethodID = 0x30; // PulseDocNodeID_t
-            public const nint m_nSrcChunk = 0x34; // PulseRuntimeChunkIndex_t
+            public const nint m_nSrcChunk = 0x34; // 
             public const nint m_nSrcInstruction = 0x38; // int32
         }
         // Parent: None
@@ -1070,7 +1070,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_DomainIdentifier = 0x8; // CUtlSymbolLarge
             public const nint m_ParentMapName = 0x10; // CUtlSymbolLarge
             public const nint m_ParentXmlName = 0x18; // CUtlSymbolLarge
-            public const nint m_vecGameBlackboards = 0x20; // CUtlVector<CUtlSymbolLarge>
+            public const nint m_vecGameBlackboards = 0x20; // 
             public const nint m_Chunks = 0x38; // CUtlVector<CPulse_Chunk*>
             public const nint m_Cells = 0x50; // CUtlVector<CPulseCell_Base*>
             public const nint m_Vars = 0x68; // CUtlVector<CPulse_Variable>
@@ -1122,7 +1122,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_BaseEntrypoint {
-            public const nint m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
+            public const nint m_EntryChunk = 0x48; // 
             public const nint m_RegisterMap = 0x50; // PulseRegisterMap_t
         }
         // Parent: None

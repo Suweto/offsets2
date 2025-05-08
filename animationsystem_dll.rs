@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-22 00:27:51.721970600 UTC
+// 2025-05-08 02:20:48.817809100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1644,7 +1644,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CMotionGraphUpdateNode {
-                pub const m_pMotionGraph: usize = 0x58; // 
+                pub const m_pMotionGraph: usize = 0x58; // CSmartPtr<CMotionGraph>
             }
             // Parent: CNmFloatValueNode__CDefinition
             // Field count: 2
@@ -2880,7 +2880,7 @@ pub mod cs2_dumper {
                 pub const m_Transform: usize = 0x0; // CTransform
                 pub const m_Name: usize = 0x20; // CUtlString
                 pub const m_nParent: usize = 0x28; // int32
-                pub const m_refModel: usize = 0x30; // 
+                pub const m_refModel: usize = 0x30; // CStrongHandle<InfoForResourceTypeCModel>
             }
             // Parent: CNmIDValueNode__CDefinition
             // Field count: 2
@@ -2956,7 +2956,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CHitBoxSetList {
-                pub const m_HitBoxSets: usize = 0x0; // CUtlVector<CHitBoxSet>
+                pub const m_HitBoxSets: usize = 0x0; // 
             }
             // Parent: None
             // Field count: 1
@@ -3645,7 +3645,7 @@ pub mod cs2_dumper {
                 pub const m_refPhysicsData: usize = 0xF0; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
                 pub const m_refPhysicsHitboxData: usize = 0x108; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
                 pub const m_refAnimGroups: usize = 0x120; // CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>>
-                pub const m_refSequenceGroups: usize = 0x138; // 
+                pub const m_refSequenceGroups: usize = 0x138; // CUtlVector<CStrongHandle<InfoForResourceTypeCSequenceGroupData>>
                 pub const m_meshGroups: usize = 0x150; // CUtlVector<CUtlString>
                 pub const m_materialGroups: usize = 0x168; // CUtlVector<MaterialGroup_t>
                 pub const m_nDefaultMeshGroupMask: usize = 0x180; // uint64
@@ -3931,7 +3931,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimReplayFrame {
-                pub const m_inputDataBlocks: usize = 0x10; // CUtlVector<CUtlBinaryBlock>
+                pub const m_inputDataBlocks: usize = 0x10; // 
                 pub const m_instanceData: usize = 0x28; // CUtlBinaryBlock
                 pub const m_startingLocalToWorldTransform: usize = 0x40; // CTransform
                 pub const m_localToWorldTransform: usize = 0x60; // CTransform
@@ -4009,7 +4009,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CMovementComponentUpdater {
-                pub const m_motors: usize = 0x30; // CUtlVector<CSmartPtr<CAnimMotorUpdaterBase>>
+                pub const m_motors: usize = 0x30; // 
                 pub const m_facingDamping: usize = 0x48; // CAnimInputDamping
                 pub const m_nDefaultMotorIndex: usize = 0x60; // int32
                 pub const m_flDefaultRunSpeed: usize = 0x64; // float32
@@ -4076,7 +4076,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CDemoSettingsComponentUpdater {
-                pub const m_settings: usize = 0x30; // CAnimDemoCaptureSettings
+                pub const m_settings: usize = 0x30; // 
             }
             // Parent: None
             // Field count: 3
@@ -4120,7 +4120,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CFootStride {
                 pub const m_definition: usize = 0x0; // CFootCycleDefinition
-                pub const m_trajectories: usize = 0x40; // 
+                pub const m_trajectories: usize = 0x40; // CFootTrajectories
             }
             // Parent: CNmEvent
             // Field count: 2
@@ -4791,7 +4791,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod SkeletonDemoDb_t {
                 pub const m_AnimCaptures: usize = 0x0; // CUtlVector<SkeletonAnimCapture_t*>
-                pub const m_CameraTrack: usize = 0x18; // CUtlVector<SkeletonAnimCapture_t::Camera_t>
+                pub const m_CameraTrack: usize = 0x18; // 
                 pub const m_flRecordingTime: usize = 0x30; // float32
             }
             // Parent: CNmBoolValueNode__CDefinition
@@ -4841,7 +4841,7 @@ pub mod cs2_dumper {
                 pub const m_sceneObjects: usize = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
                 pub const m_constraints: usize = 0x78; // CUtlLeanVector<CBaseConstraint*>
                 pub const m_skeleton: usize = 0x88; // CRenderSkeleton
-                pub const m_meshDeformParams: usize = 0x1A8; // DynamicMeshDeformParams_t
+                pub const m_meshDeformParams: usize = 0x1A8; // 
                 pub const m_pGroomData: usize = 0x1B8; // CRenderGroom*
             }
             // Parent: None
@@ -5644,7 +5644,7 @@ pub mod cs2_dumper {
                 pub const m_scriptManager: usize = 0x70; // CSmartPtr<CAnimScriptManager>
                 pub const m_settings: usize = 0x78; // CAnimGraphSettingsManager
                 pub const m_pStaticPoseCache: usize = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
-                pub const m_pSkeleton: usize = 0xB0; // 
+                pub const m_pSkeleton: usize = 0xB0; // CSmartPtr<CAnimSkeleton>
                 pub const m_rootNodePath: usize = 0xB8; // CAnimNodePath
             }
             // Parent: None
@@ -6344,7 +6344,7 @@ pub mod cs2_dumper {
             pub mod CModelConfigElement_AttachedModel {
                 pub const m_InstanceName: usize = 0x48; // CUtlString
                 pub const m_EntityClass: usize = 0x50; // CUtlString
-                pub const m_hModel: usize = 0x58; // 
+                pub const m_hModel: usize = 0x58; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_vOffset: usize = 0x60; // Vector
                 pub const m_aAngOffset: usize = 0x6C; // QAngle
                 pub const m_AttachmentName: usize = 0x78; // CUtlString

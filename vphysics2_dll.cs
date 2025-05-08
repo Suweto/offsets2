@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-22 00:27:51.721970600 UTC
+// 2025-05-08 02:20:48.817809100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -128,7 +128,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_NodeIntegrator = 0x240; // CUtlVector<FeNodeIntegrator_t>
             public const nint m_SpringIntegrator = 0x258; // CUtlVector<FeSpringIntegrator_t>
             public const nint m_SimdSpringIntegrator = 0x270; // CUtlVector<FeSimdSpringIntegrator_t>
-            public const nint m_WorldCollisionParams = 0x288; // CUtlVector<FeWorldCollisionParams_t>
+            public const nint m_WorldCollisionParams = 0x288; // 
             public const nint m_LegacyStretchForce = 0x2A0; // CUtlVector<float32>
             public const nint m_NodeCollisionRadii = 0x2B8; // CUtlVector<float32>
             public const nint m_DynNodeFriction = 0x2D0; // CUtlVector<float32>
@@ -164,11 +164,11 @@ namespace CS2Dumper.Schemas {
             public const nint m_DynNodeVertexSet = 0x518; // CUtlVector<uint8>
             public const nint m_VertexSetNames = 0x530; // CUtlVector<uint32>
             public const nint m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
-            public const nint m_MorphLayers = 0x560; // 
+            public const nint m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
             public const nint m_MorphSetData = 0x578; // CUtlVector<uint8>
-            public const nint m_VertexMaps = 0x590; // 
+            public const nint m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
             public const nint m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
-            public const nint m_Effects = 0x5C0; // 
+            public const nint m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
             public const nint m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
             public const nint m_LockToGoal = 0x5F0; // CUtlVector<uint16>
             public const nint m_SkelParents = 0x608; // CUtlVector<int16>
@@ -945,10 +945,10 @@ namespace CS2Dumper.Schemas {
             public const nint m_MassProperties = 0x34; // matrix3x4_t
             public const nint m_flVolume = 0x64; // float32
             public const nint m_flSurfaceArea = 0x68; // float32
-            public const nint m_Vertices = 0x70; // CUtlVector<RnVertex_t>
+            public const nint m_Vertices = 0x70; // 
             public const nint m_VertexPositions = 0x88; // CUtlVector<Vector>
-            public const nint m_Edges = 0xA0; // CUtlVector<RnHalfEdge_t>
-            public const nint m_Faces = 0xB8; // CUtlVector<RnFace_t>
+            public const nint m_Edges = 0xA0; // 
+            public const nint m_Faces = 0xB8; // 
             public const nint m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
             public const nint m_nFlags = 0xE8; // uint32
             public const nint m_pRegionSVM = 0xF0; // CRegionSVM*
