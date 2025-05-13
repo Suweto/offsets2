@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 #pragma once
 
@@ -2854,7 +2854,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bShouldHitboxesFallbackToCollisionHulls = 0x30F; // bool
                 constexpr std::ptrdiff_t m_nViewModelEffect = 0x310; // InheritableBoolType_t
                 constexpr std::ptrdiff_t m_bScreenSpaceEffect = 0x314; // bool
-                constexpr std::ptrdiff_t m_pszTargetLayerID = 0x318; // CUtlSymbolLarge
+                constexpr std::ptrdiff_t m_pszTargetLayerID = 0x318; // 
                 constexpr std::ptrdiff_t m_nSkipRenderControlPoint = 0x320; // int32
                 constexpr std::ptrdiff_t m_nAllowRenderControlPoint = 0x324; // int32
                 constexpr std::ptrdiff_t m_bShouldSort = 0x328; // bool
@@ -4109,7 +4109,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleTransformInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleTransformType_t
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_bFollowNamedValue = 0x58; // bool
                 constexpr std::ptrdiff_t m_bSupportsDisabled = 0x59; // bool
@@ -4487,7 +4487,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_SetControlPointFieldFromVectorExpression {
-                constexpr std::ptrdiff_t m_nExpression = 0x1C8; // VectorFloatExpressionType_t
+                constexpr std::ptrdiff_t m_nExpression = 0x1C8; // 
                 constexpr std::ptrdiff_t m_vecInput1 = 0x1D0; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_vecInput2 = 0x848; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_flOutputRemap = 0xEC0; // CParticleRemapFloatInput
@@ -4825,7 +4825,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_SetFloatAttributeToVectorExpression {
-                constexpr std::ptrdiff_t m_nExpression = 0x1C0; // VectorFloatExpressionType_t
+                constexpr std::ptrdiff_t m_nExpression = 0x1C0; // 
                 constexpr std::ptrdiff_t m_vInput1 = 0x1C8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_vInput2 = 0x840; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_flOutputRemap = 0xEB8; // CParticleRemapFloatInput
@@ -5763,7 +5763,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flPrevPosScale = 0x294; // float32
                 constexpr std::ptrdiff_t m_HitboxSetName = 0x298; // 
                 constexpr std::ptrdiff_t m_bUseBones = 0x318; // bool
-                constexpr std::ptrdiff_t m_nLerpType = 0x31C; // 
+                constexpr std::ptrdiff_t m_nLerpType = 0x31C; // HitboxLerpType_t
                 constexpr std::ptrdiff_t m_flInterpolation = 0x320; // CPerParticleFloatInput
             }
             // Parent: CParticleInput
@@ -5806,7 +5806,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bNoiseImgPreviewLive = 0xD4; // bool
                 constexpr std::ptrdiff_t m_flNoCameraFallback = 0xE0; // float32
                 constexpr std::ptrdiff_t m_bUseBoundsCenter = 0xE4; // bool
-                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // ParticleFloatInputMode_t
+                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // 
                 constexpr std::ptrdiff_t m_flMultFactor = 0xEC; // float32
                 constexpr std::ptrdiff_t m_flInput0 = 0xF0; // float32
                 constexpr std::ptrdiff_t m_flInput1 = 0xF4; // float32

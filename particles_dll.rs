@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2928,7 +2928,7 @@ pub mod cs2_dumper {
                 pub const m_bShouldHitboxesFallbackToCollisionHulls: usize = 0x30F; // bool
                 pub const m_nViewModelEffect: usize = 0x310; // InheritableBoolType_t
                 pub const m_bScreenSpaceEffect: usize = 0x314; // bool
-                pub const m_pszTargetLayerID: usize = 0x318; // CUtlSymbolLarge
+                pub const m_pszTargetLayerID: usize = 0x318; // 
                 pub const m_nSkipRenderControlPoint: usize = 0x320; // int32
                 pub const m_nAllowRenderControlPoint: usize = 0x324; // int32
                 pub const m_bShouldSort: usize = 0x328; // bool
@@ -4183,7 +4183,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleTransformInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleTransformType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_bFollowNamedValue: usize = 0x58; // bool
                 pub const m_bSupportsDisabled: usize = 0x59; // bool
@@ -4561,7 +4561,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_SetControlPointFieldFromVectorExpression {
-                pub const m_nExpression: usize = 0x1C8; // VectorFloatExpressionType_t
+                pub const m_nExpression: usize = 0x1C8; // 
                 pub const m_vecInput1: usize = 0x1D0; // CParticleCollectionVecInput
                 pub const m_vecInput2: usize = 0x848; // CParticleCollectionVecInput
                 pub const m_flOutputRemap: usize = 0xEC0; // CParticleRemapFloatInput
@@ -4899,7 +4899,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_SetFloatAttributeToVectorExpression {
-                pub const m_nExpression: usize = 0x1C0; // VectorFloatExpressionType_t
+                pub const m_nExpression: usize = 0x1C0; // 
                 pub const m_vInput1: usize = 0x1C8; // CPerParticleVecInput
                 pub const m_vInput2: usize = 0x840; // CPerParticleVecInput
                 pub const m_flOutputRemap: usize = 0xEB8; // CParticleRemapFloatInput
@@ -5837,7 +5837,7 @@ pub mod cs2_dumper {
                 pub const m_flPrevPosScale: usize = 0x294; // float32
                 pub const m_HitboxSetName: usize = 0x298; // 
                 pub const m_bUseBones: usize = 0x318; // bool
-                pub const m_nLerpType: usize = 0x31C; // 
+                pub const m_nLerpType: usize = 0x31C; // HitboxLerpType_t
                 pub const m_flInterpolation: usize = 0x320; // CPerParticleFloatInput
             }
             // Parent: CParticleInput
@@ -5880,7 +5880,7 @@ pub mod cs2_dumper {
                 pub const m_bNoiseImgPreviewLive: usize = 0xD4; // bool
                 pub const m_flNoCameraFallback: usize = 0xE0; // float32
                 pub const m_bUseBoundsCenter: usize = 0xE4; // bool
-                pub const m_nInputMode: usize = 0xE8; // ParticleFloatInputMode_t
+                pub const m_nInputMode: usize = 0xE8; // 
                 pub const m_flMultFactor: usize = 0xEC; // float32
                 pub const m_flInput0: usize = 0xF0; // float32
                 pub const m_flInput1: usize = 0xF4; // float32

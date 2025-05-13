@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: scenesystem.dll
@@ -101,7 +101,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CSSDSMsg_EndFrame {
-            public const nint m_Views = 0x0; // CUtlVector<CSSDSEndFrameViewInfo>
+            public const nint m_Views = 0x0; // 
         }
     }
 }

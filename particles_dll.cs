@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -2849,7 +2849,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bShouldHitboxesFallbackToCollisionHulls = 0x30F; // bool
             public const nint m_nViewModelEffect = 0x310; // InheritableBoolType_t
             public const nint m_bScreenSpaceEffect = 0x314; // bool
-            public const nint m_pszTargetLayerID = 0x318; // CUtlSymbolLarge
+            public const nint m_pszTargetLayerID = 0x318; // 
             public const nint m_nSkipRenderControlPoint = 0x320; // int32
             public const nint m_nAllowRenderControlPoint = 0x324; // int32
             public const nint m_bShouldSort = 0x328; // bool
@@ -4104,7 +4104,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleTransformInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleTransformType_t
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_bFollowNamedValue = 0x58; // bool
             public const nint m_bSupportsDisabled = 0x59; // bool
@@ -4482,7 +4482,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_SetControlPointFieldFromVectorExpression {
-            public const nint m_nExpression = 0x1C8; // VectorFloatExpressionType_t
+            public const nint m_nExpression = 0x1C8; // 
             public const nint m_vecInput1 = 0x1D0; // CParticleCollectionVecInput
             public const nint m_vecInput2 = 0x848; // CParticleCollectionVecInput
             public const nint m_flOutputRemap = 0xEC0; // CParticleRemapFloatInput
@@ -4820,7 +4820,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_SetFloatAttributeToVectorExpression {
-            public const nint m_nExpression = 0x1C0; // VectorFloatExpressionType_t
+            public const nint m_nExpression = 0x1C0; // 
             public const nint m_vInput1 = 0x1C8; // CPerParticleVecInput
             public const nint m_vInput2 = 0x840; // CPerParticleVecInput
             public const nint m_flOutputRemap = 0xEB8; // CParticleRemapFloatInput
@@ -5758,7 +5758,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flPrevPosScale = 0x294; // float32
             public const nint m_HitboxSetName = 0x298; // 
             public const nint m_bUseBones = 0x318; // bool
-            public const nint m_nLerpType = 0x31C; // 
+            public const nint m_nLerpType = 0x31C; // HitboxLerpType_t
             public const nint m_flInterpolation = 0x320; // CPerParticleFloatInput
         }
         // Parent: CParticleInput
@@ -5801,7 +5801,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bNoiseImgPreviewLive = 0xD4; // bool
             public const nint m_flNoCameraFallback = 0xE0; // float32
             public const nint m_bUseBoundsCenter = 0xE4; // bool
-            public const nint m_nInputMode = 0xE8; // ParticleFloatInputMode_t
+            public const nint m_nInputMode = 0xE8; // 
             public const nint m_flMultFactor = 0xEC; // float32
             public const nint m_flInput0 = 0xF0; // float32
             public const nint m_flInput1 = 0xF4; // float32

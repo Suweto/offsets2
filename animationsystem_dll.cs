@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1022,7 +1022,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CNmFrameSnapEvent {
-            public const nint m_frameSnapMode = 0x18; // NmFrameSnapEventMode_t
+            public const nint m_frameSnapMode = 0x18; // 
         }
         // Parent: None
         // Field count: 0
@@ -2383,7 +2383,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_boneSphere = 0x30; // CUtlVector<float32>
             public const nint m_nFlag = 0x48; // CUtlVector<uint32>
             public const nint m_bonePosParent = 0x60; // CUtlVector<Vector>
-            public const nint m_boneRotParent = 0x78; // CUtlVector<QuaternionStorage>
+            public const nint m_boneRotParent = 0x78; // 
             public const nint m_boneScaleParent = 0x90; // CUtlVector<float32>
         }
         // Parent: None
@@ -2859,7 +2859,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CHitBoxSetList {
-            public const nint m_HitBoxSets = 0x0; // 
+            public const nint m_HitBoxSets = 0x0; // CUtlVector<CHitBoxSet>
         }
         // Parent: None
         // Field count: 1
@@ -3548,7 +3548,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_refPhysicsData = 0xF0; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
             public const nint m_refPhysicsHitboxData = 0x108; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
             public const nint m_refAnimGroups = 0x120; // CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>>
-            public const nint m_refSequenceGroups = 0x138; // CUtlVector<CStrongHandle<InfoForResourceTypeCSequenceGroupData>>
+            public const nint m_refSequenceGroups = 0x138; // 
             public const nint m_meshGroups = 0x150; // CUtlVector<CUtlString>
             public const nint m_materialGroups = 0x168; // CUtlVector<MaterialGroup_t>
             public const nint m_nDefaultMeshGroupMask = 0x180; // uint64
@@ -3834,7 +3834,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimReplayFrame {
-            public const nint m_inputDataBlocks = 0x10; // 
+            public const nint m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
             public const nint m_instanceData = 0x28; // CUtlBinaryBlock
             public const nint m_startingLocalToWorldTransform = 0x40; // CTransform
             public const nint m_localToWorldTransform = 0x60; // CTransform
@@ -3979,7 +3979,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CDemoSettingsComponentUpdater {
-            public const nint m_settings = 0x30; // 
+            public const nint m_settings = 0x30; // CAnimDemoCaptureSettings
         }
         // Parent: None
         // Field count: 3
@@ -4693,8 +4693,8 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class SkeletonDemoDb_t {
-            public const nint m_AnimCaptures = 0x0; // CUtlVector<SkeletonAnimCapture_t*>
-            public const nint m_CameraTrack = 0x18; // 
+            public const nint m_AnimCaptures = 0x0; // 
+            public const nint m_CameraTrack = 0x18; // CUtlVector<SkeletonAnimCapture_t::Camera_t>
             public const nint m_flRecordingTime = 0x30; // float32
         }
         // Parent: CNmBoolValueNode__CDefinition
@@ -4744,7 +4744,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_sceneObjects = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
             public const nint m_constraints = 0x78; // CUtlLeanVector<CBaseConstraint*>
             public const nint m_skeleton = 0x88; // CRenderSkeleton
-            public const nint m_meshDeformParams = 0x1A8; // 
+            public const nint m_meshDeformParams = 0x1A8; // DynamicMeshDeformParams_t
             public const nint m_pGroomData = 0x1B8; // CRenderGroom*
         }
         // Parent: None

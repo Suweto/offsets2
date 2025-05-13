@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -127,8 +127,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_CollisionPlanes = 0x228; // CUtlVector<FeCollisionPlane_t>
             public const nint m_NodeIntegrator = 0x240; // CUtlVector<FeNodeIntegrator_t>
             public const nint m_SpringIntegrator = 0x258; // CUtlVector<FeSpringIntegrator_t>
-            public const nint m_SimdSpringIntegrator = 0x270; // CUtlVector<FeSimdSpringIntegrator_t>
-            public const nint m_WorldCollisionParams = 0x288; // 
+            public const nint m_SimdSpringIntegrator = 0x270; // 
+            public const nint m_WorldCollisionParams = 0x288; // CUtlVector<FeWorldCollisionParams_t>
             public const nint m_LegacyStretchForce = 0x2A0; // CUtlVector<float32>
             public const nint m_NodeCollisionRadii = 0x2B8; // CUtlVector<float32>
             public const nint m_DynNodeFriction = 0x2D0; // CUtlVector<float32>
@@ -639,7 +639,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CRegionSVM {
-            public const nint m_Planes = 0x0; // CUtlVector<RnPlane_t>
+            public const nint m_Planes = 0x0; // 
             public const nint m_Nodes = 0x18; // CUtlVector<uint32>
         }
         // Parent: None
@@ -948,8 +948,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_Vertices = 0x70; // 
             public const nint m_VertexPositions = 0x88; // CUtlVector<Vector>
             public const nint m_Edges = 0xA0; // 
-            public const nint m_Faces = 0xB8; // 
-            public const nint m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
+            public const nint m_Faces = 0xB8; // CUtlVector<RnFace_t>
+            public const nint m_FacePlanes = 0xD0; // 
             public const nint m_nFlags = 0xE8; // uint32
             public const nint m_pRegionSVM = 0xF0; // CRegionSVM*
         }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -132,8 +132,8 @@ pub mod cs2_dumper {
                 pub const m_CollisionPlanes: usize = 0x228; // CUtlVector<FeCollisionPlane_t>
                 pub const m_NodeIntegrator: usize = 0x240; // CUtlVector<FeNodeIntegrator_t>
                 pub const m_SpringIntegrator: usize = 0x258; // CUtlVector<FeSpringIntegrator_t>
-                pub const m_SimdSpringIntegrator: usize = 0x270; // CUtlVector<FeSimdSpringIntegrator_t>
-                pub const m_WorldCollisionParams: usize = 0x288; // 
+                pub const m_SimdSpringIntegrator: usize = 0x270; // 
+                pub const m_WorldCollisionParams: usize = 0x288; // CUtlVector<FeWorldCollisionParams_t>
                 pub const m_LegacyStretchForce: usize = 0x2A0; // CUtlVector<float32>
                 pub const m_NodeCollisionRadii: usize = 0x2B8; // CUtlVector<float32>
                 pub const m_DynNodeFriction: usize = 0x2D0; // CUtlVector<float32>
@@ -644,7 +644,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CRegionSVM {
-                pub const m_Planes: usize = 0x0; // CUtlVector<RnPlane_t>
+                pub const m_Planes: usize = 0x0; // 
                 pub const m_Nodes: usize = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -953,8 +953,8 @@ pub mod cs2_dumper {
                 pub const m_Vertices: usize = 0x70; // 
                 pub const m_VertexPositions: usize = 0x88; // CUtlVector<Vector>
                 pub const m_Edges: usize = 0xA0; // 
-                pub const m_Faces: usize = 0xB8; // 
-                pub const m_FacePlanes: usize = 0xD0; // CUtlVector<RnPlane_t>
+                pub const m_Faces: usize = 0xB8; // CUtlVector<RnFace_t>
+                pub const m_FacePlanes: usize = 0xD0; // 
                 pub const m_nFlags: usize = 0xE8; // uint32
                 pub const m_pRegionSVM: usize = 0xF0; // CRegionSVM*
             }

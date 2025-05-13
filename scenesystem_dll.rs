@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -105,7 +105,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CSSDSMsg_EndFrame {
-                pub const m_Views: usize = 0x0; // CUtlVector<CSSDSEndFrameViewInfo>
+                pub const m_Views: usize = 0x0; // 
             }
         }
     }

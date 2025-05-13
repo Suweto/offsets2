@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -7,23 +7,23 @@ pub mod cs2_dumper {
     pub mod offsets {
         // Module: client.dll
         pub mod client_dll {
-            pub const dwCSGOInput: usize = 0x1A69E40;
-            pub const dwEntityList: usize = 0x19F6FA0;
-            pub const dwGameEntitySystem: usize = 0x1B1A668;
+            pub const dwCSGOInput: usize = 0x1A6AF10;
+            pub const dwEntityList: usize = 0x19F7F20;
+            pub const dwGameEntitySystem: usize = 0x1B1B748;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x20F0;
-            pub const dwGameRules: usize = 0x1A5B878;
-            pub const dwGlobalVars: usize = 0x183F128;
-            pub const dwGlowManager: usize = 0x1A5AFC0;
-            pub const dwLocalPlayerController: usize = 0x1A45A80;
-            pub const dwLocalPlayerPawn: usize = 0x184B0B0;
-            pub const dwPlantedC4: usize = 0x1A66008;
-            pub const dwPrediction: usize = 0x184AF30;
-            pub const dwSensitivity: usize = 0x1A5C598;
+            pub const dwGameRules: usize = 0x1A5C7F8;
+            pub const dwGlobalVars: usize = 0x1840148;
+            pub const dwGlowManager: usize = 0x1A5BF40;
+            pub const dwLocalPlayerController: usize = 0x1A46A00;
+            pub const dwLocalPlayerPawn: usize = 0x184C0D0;
+            pub const dwPlantedC4: usize = 0x1A670D8;
+            pub const dwPrediction: usize = 0x184BF50;
+            pub const dwSensitivity: usize = 0x1A5D518;
             pub const dwSensitivity_sensitivity: usize = 0x40;
-            pub const dwViewAngles: usize = 0x1A6A210;
-            pub const dwViewMatrix: usize = 0x1A5FF70;
-            pub const dwViewRender: usize = 0x1A608E8;
-            pub const dwWeaponC4: usize = 0x19F9470;
+            pub const dwViewAngles: usize = 0x1A6B2E0;
+            pub const dwViewMatrix: usize = 0x1A60EF0;
+            pub const dwViewRender: usize = 0x1A619A8;
+            pub const dwWeaponC4: usize = 0x19FA280;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -50,7 +50,7 @@ pub mod cs2_dumper {
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
-            pub const dwSoundSystem: usize = 0x3A15C0;
+            pub const dwSoundSystem: usize = 0x3A15F0;
             pub const dwSoundSystem_engineViewData: usize = 0x7C;
         }
     }

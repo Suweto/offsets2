@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-08 02:20:48.817809100 UTC
+// 2025-05-13 23:26:31.627499 UTC
 
 #pragma once
 
@@ -132,8 +132,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_CollisionPlanes = 0x228; // CUtlVector<FeCollisionPlane_t>
                 constexpr std::ptrdiff_t m_NodeIntegrator = 0x240; // CUtlVector<FeNodeIntegrator_t>
                 constexpr std::ptrdiff_t m_SpringIntegrator = 0x258; // CUtlVector<FeSpringIntegrator_t>
-                constexpr std::ptrdiff_t m_SimdSpringIntegrator = 0x270; // CUtlVector<FeSimdSpringIntegrator_t>
-                constexpr std::ptrdiff_t m_WorldCollisionParams = 0x288; // 
+                constexpr std::ptrdiff_t m_SimdSpringIntegrator = 0x270; // 
+                constexpr std::ptrdiff_t m_WorldCollisionParams = 0x288; // CUtlVector<FeWorldCollisionParams_t>
                 constexpr std::ptrdiff_t m_LegacyStretchForce = 0x2A0; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_NodeCollisionRadii = 0x2B8; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_DynNodeFriction = 0x2D0; // CUtlVector<float32>
@@ -644,7 +644,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CRegionSVM {
-                constexpr std::ptrdiff_t m_Planes = 0x0; // CUtlVector<RnPlane_t>
+                constexpr std::ptrdiff_t m_Planes = 0x0; // 
                 constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -953,8 +953,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Vertices = 0x70; // 
                 constexpr std::ptrdiff_t m_VertexPositions = 0x88; // CUtlVector<Vector>
                 constexpr std::ptrdiff_t m_Edges = 0xA0; // 
-                constexpr std::ptrdiff_t m_Faces = 0xB8; // 
-                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
+                constexpr std::ptrdiff_t m_Faces = 0xB8; // CUtlVector<RnFace_t>
+                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // 
                 constexpr std::ptrdiff_t m_nFlags = 0xE8; // uint32
                 constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // CRegionSVM*
             }
