@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-13 23:26:31.627499 UTC
+// 2025-05-15 23:04:52.783992800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -132,7 +132,7 @@ pub mod cs2_dumper {
                 pub const m_CollisionPlanes: usize = 0x228; // CUtlVector<FeCollisionPlane_t>
                 pub const m_NodeIntegrator: usize = 0x240; // CUtlVector<FeNodeIntegrator_t>
                 pub const m_SpringIntegrator: usize = 0x258; // CUtlVector<FeSpringIntegrator_t>
-                pub const m_SimdSpringIntegrator: usize = 0x270; // 
+                pub const m_SimdSpringIntegrator: usize = 0x270; // CUtlVector<FeSimdSpringIntegrator_t>
                 pub const m_WorldCollisionParams: usize = 0x288; // CUtlVector<FeWorldCollisionParams_t>
                 pub const m_LegacyStretchForce: usize = 0x2A0; // CUtlVector<float32>
                 pub const m_NodeCollisionRadii: usize = 0x2B8; // CUtlVector<float32>
@@ -168,10 +168,10 @@ pub mod cs2_dumper {
                 pub const m_BoxRigids: usize = 0x500; // CUtlVector<FeBoxRigid_t>
                 pub const m_DynNodeVertexSet: usize = 0x518; // CUtlVector<uint8>
                 pub const m_VertexSetNames: usize = 0x530; // CUtlVector<uint32>
-                pub const m_RigidColliderPriorities: usize = 0x548; // CUtlVector<FeRigidColliderIndices_t>
+                pub const m_RigidColliderPriorities: usize = 0x548; // 
                 pub const m_MorphLayers: usize = 0x560; // CUtlVector<FeMorphLayerDepr_t>
                 pub const m_MorphSetData: usize = 0x578; // CUtlVector<uint8>
-                pub const m_VertexMaps: usize = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                pub const m_VertexMaps: usize = 0x590; // 
                 pub const m_VertexMapValues: usize = 0x5A8; // CUtlVector<uint8>
                 pub const m_Effects: usize = 0x5C0; // CUtlVector<FeEffectDesc_t>
                 pub const m_LockToParent: usize = 0x5D8; // CUtlVector<FeCtrlOffset_t>
@@ -644,7 +644,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CRegionSVM {
-                pub const m_Planes: usize = 0x0; // 
+                pub const m_Planes: usize = 0x0; // CUtlVector<RnPlane_t>
                 pub const m_Nodes: usize = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -950,11 +950,11 @@ pub mod cs2_dumper {
                 pub const m_MassProperties: usize = 0x34; // matrix3x4_t
                 pub const m_flVolume: usize = 0x64; // float32
                 pub const m_flSurfaceArea: usize = 0x68; // float32
-                pub const m_Vertices: usize = 0x70; // 
+                pub const m_Vertices: usize = 0x70; // CUtlVector<RnVertex_t>
                 pub const m_VertexPositions: usize = 0x88; // CUtlVector<Vector>
-                pub const m_Edges: usize = 0xA0; // 
+                pub const m_Edges: usize = 0xA0; // CUtlVector<RnHalfEdge_t>
                 pub const m_Faces: usize = 0xB8; // CUtlVector<RnFace_t>
-                pub const m_FacePlanes: usize = 0xD0; // 
+                pub const m_FacePlanes: usize = 0xD0; // CUtlVector<RnPlane_t>
                 pub const m_nFlags: usize = 0xE8; // uint32
                 pub const m_pRegionSVM: usize = 0xF0; // CRegionSVM*
             }

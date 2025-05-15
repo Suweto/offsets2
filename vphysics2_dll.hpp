@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-13 23:26:31.627499 UTC
+// 2025-05-15 23:04:52.783992800 UTC
 
 #pragma once
 
@@ -132,7 +132,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_CollisionPlanes = 0x228; // CUtlVector<FeCollisionPlane_t>
                 constexpr std::ptrdiff_t m_NodeIntegrator = 0x240; // CUtlVector<FeNodeIntegrator_t>
                 constexpr std::ptrdiff_t m_SpringIntegrator = 0x258; // CUtlVector<FeSpringIntegrator_t>
-                constexpr std::ptrdiff_t m_SimdSpringIntegrator = 0x270; // 
+                constexpr std::ptrdiff_t m_SimdSpringIntegrator = 0x270; // CUtlVector<FeSimdSpringIntegrator_t>
                 constexpr std::ptrdiff_t m_WorldCollisionParams = 0x288; // CUtlVector<FeWorldCollisionParams_t>
                 constexpr std::ptrdiff_t m_LegacyStretchForce = 0x2A0; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_NodeCollisionRadii = 0x2B8; // CUtlVector<float32>
@@ -168,10 +168,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_BoxRigids = 0x500; // CUtlVector<FeBoxRigid_t>
                 constexpr std::ptrdiff_t m_DynNodeVertexSet = 0x518; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_VertexSetNames = 0x530; // CUtlVector<uint32>
-                constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
+                constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // 
                 constexpr std::ptrdiff_t m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
                 constexpr std::ptrdiff_t m_MorphSetData = 0x578; // CUtlVector<uint8>
-                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // 
                 constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
                 constexpr std::ptrdiff_t m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
@@ -644,7 +644,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CRegionSVM {
-                constexpr std::ptrdiff_t m_Planes = 0x0; // 
+                constexpr std::ptrdiff_t m_Planes = 0x0; // CUtlVector<RnPlane_t>
                 constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -950,11 +950,11 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_MassProperties = 0x34; // matrix3x4_t
                 constexpr std::ptrdiff_t m_flVolume = 0x64; // float32
                 constexpr std::ptrdiff_t m_flSurfaceArea = 0x68; // float32
-                constexpr std::ptrdiff_t m_Vertices = 0x70; // 
+                constexpr std::ptrdiff_t m_Vertices = 0x70; // CUtlVector<RnVertex_t>
                 constexpr std::ptrdiff_t m_VertexPositions = 0x88; // CUtlVector<Vector>
-                constexpr std::ptrdiff_t m_Edges = 0xA0; // 
+                constexpr std::ptrdiff_t m_Edges = 0xA0; // CUtlVector<RnHalfEdge_t>
                 constexpr std::ptrdiff_t m_Faces = 0xB8; // CUtlVector<RnFace_t>
-                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // 
+                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
                 constexpr std::ptrdiff_t m_nFlags = 0xE8; // uint32
                 constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // CRegionSVM*
             }

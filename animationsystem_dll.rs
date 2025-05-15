@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-13 23:26:31.627499 UTC
+// 2025-05-15 23:04:52.783992800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1119,7 +1119,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CNmFrameSnapEvent {
-                pub const m_frameSnapMode: usize = 0x18; // 
+                pub const m_frameSnapMode: usize = 0x18; // NmFrameSnapEventMode_t
             }
             // Parent: None
             // Field count: 0
@@ -1204,7 +1204,7 @@ pub mod cs2_dumper {
                 pub const m_requireRuleID: usize = 0x10; // 
                 pub const m_eventConditionRules: usize = 0x18; // CNmBitFlags
                 pub const m_nSourceStateNodeIdx: usize = 0x1C; // int16
-                pub const m_ruleCondition: usize = 0x1E; // NmTransitionRuleCondition_t
+                pub const m_ruleCondition: usize = 0x1E; // 
             }
             // Parent: CAnimTagBase
             // Field count: 0
@@ -2480,7 +2480,7 @@ pub mod cs2_dumper {
                 pub const m_boneSphere: usize = 0x30; // CUtlVector<float32>
                 pub const m_nFlag: usize = 0x48; // CUtlVector<uint32>
                 pub const m_bonePosParent: usize = 0x60; // CUtlVector<Vector>
-                pub const m_boneRotParent: usize = 0x78; // 
+                pub const m_boneRotParent: usize = 0x78; // CUtlVector<QuaternionStorage>
                 pub const m_boneScaleParent: usize = 0x90; // CUtlVector<float32>
             }
             // Parent: None
@@ -3084,7 +3084,7 @@ pub mod cs2_dumper {
                 pub const m_boneSetupMask: usize = 0x48; // CUtlVector<uint32>
                 pub const m_boneTransforms: usize = 0x60; // CUtlVector<matrix3x4a_t>
                 pub const m_flexControllers: usize = 0x78; // CUtlVector<float32>
-                pub const m_SnapshotType: usize = 0x90; // AnimationSnapshotType_t
+                pub const m_SnapshotType: usize = 0x90; // 
                 pub const m_bHasDecodeDump: usize = 0x94; // bool
                 pub const m_DecodeDump: usize = 0x98; // AnimationDecodeDebugDumpElement_t
             }
@@ -4790,7 +4790,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod SkeletonDemoDb_t {
-                pub const m_AnimCaptures: usize = 0x0; // 
+                pub const m_AnimCaptures: usize = 0x0; // CUtlVector<SkeletonAnimCapture_t*>
                 pub const m_CameraTrack: usize = 0x18; // CUtlVector<SkeletonAnimCapture_t::Camera_t>
                 pub const m_flRecordingTime: usize = 0x30; // float32
             }

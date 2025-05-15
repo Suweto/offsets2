@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-13 23:26:31.627499 UTC
+// 2025-05-15 23:04:52.783992800 UTC
 
 #pragma once
 
@@ -1027,7 +1027,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CNmFrameSnapEvent {
-                constexpr std::ptrdiff_t m_frameSnapMode = 0x18; // 
+                constexpr std::ptrdiff_t m_frameSnapMode = 0x18; // NmFrameSnapEventMode_t
             }
             // Parent: None
             // Field count: 0
@@ -1112,7 +1112,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_requireRuleID = 0x10; // 
                 constexpr std::ptrdiff_t m_eventConditionRules = 0x18; // CNmBitFlags
                 constexpr std::ptrdiff_t m_nSourceStateNodeIdx = 0x1C; // int16
-                constexpr std::ptrdiff_t m_ruleCondition = 0x1E; // NmTransitionRuleCondition_t
+                constexpr std::ptrdiff_t m_ruleCondition = 0x1E; // 
             }
             // Parent: CAnimTagBase
             // Field count: 0
@@ -2388,7 +2388,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_boneSphere = 0x30; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_nFlag = 0x48; // CUtlVector<uint32>
                 constexpr std::ptrdiff_t m_bonePosParent = 0x60; // CUtlVector<Vector>
-                constexpr std::ptrdiff_t m_boneRotParent = 0x78; // 
+                constexpr std::ptrdiff_t m_boneRotParent = 0x78; // CUtlVector<QuaternionStorage>
                 constexpr std::ptrdiff_t m_boneScaleParent = 0x90; // CUtlVector<float32>
             }
             // Parent: None
@@ -2992,7 +2992,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_boneSetupMask = 0x48; // CUtlVector<uint32>
                 constexpr std::ptrdiff_t m_boneTransforms = 0x60; // CUtlVector<matrix3x4a_t>
                 constexpr std::ptrdiff_t m_flexControllers = 0x78; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_SnapshotType = 0x90; // AnimationSnapshotType_t
+                constexpr std::ptrdiff_t m_SnapshotType = 0x90; // 
                 constexpr std::ptrdiff_t m_bHasDecodeDump = 0x94; // bool
                 constexpr std::ptrdiff_t m_DecodeDump = 0x98; // AnimationDecodeDebugDumpElement_t
             }
@@ -4698,7 +4698,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace SkeletonDemoDb_t {
-                constexpr std::ptrdiff_t m_AnimCaptures = 0x0; // 
+                constexpr std::ptrdiff_t m_AnimCaptures = 0x0; // CUtlVector<SkeletonAnimCapture_t*>
                 constexpr std::ptrdiff_t m_CameraTrack = 0x18; // CUtlVector<SkeletonAnimCapture_t::Camera_t>
                 constexpr std::ptrdiff_t m_flRecordingTime = 0x30; // float32
             }

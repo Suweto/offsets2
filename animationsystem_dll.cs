@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-13 23:26:31.627499 UTC
+// 2025-05-15 23:04:52.783992800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1022,7 +1022,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CNmFrameSnapEvent {
-            public const nint m_frameSnapMode = 0x18; // 
+            public const nint m_frameSnapMode = 0x18; // NmFrameSnapEventMode_t
         }
         // Parent: None
         // Field count: 0
@@ -1107,7 +1107,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_requireRuleID = 0x10; // 
             public const nint m_eventConditionRules = 0x18; // CNmBitFlags
             public const nint m_nSourceStateNodeIdx = 0x1C; // int16
-            public const nint m_ruleCondition = 0x1E; // NmTransitionRuleCondition_t
+            public const nint m_ruleCondition = 0x1E; // 
         }
         // Parent: CAnimTagBase
         // Field count: 0
@@ -2383,7 +2383,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_boneSphere = 0x30; // CUtlVector<float32>
             public const nint m_nFlag = 0x48; // CUtlVector<uint32>
             public const nint m_bonePosParent = 0x60; // CUtlVector<Vector>
-            public const nint m_boneRotParent = 0x78; // 
+            public const nint m_boneRotParent = 0x78; // CUtlVector<QuaternionStorage>
             public const nint m_boneScaleParent = 0x90; // CUtlVector<float32>
         }
         // Parent: None
@@ -2987,7 +2987,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_boneSetupMask = 0x48; // CUtlVector<uint32>
             public const nint m_boneTransforms = 0x60; // CUtlVector<matrix3x4a_t>
             public const nint m_flexControllers = 0x78; // CUtlVector<float32>
-            public const nint m_SnapshotType = 0x90; // AnimationSnapshotType_t
+            public const nint m_SnapshotType = 0x90; // 
             public const nint m_bHasDecodeDump = 0x94; // bool
             public const nint m_DecodeDump = 0x98; // AnimationDecodeDebugDumpElement_t
         }
@@ -4693,7 +4693,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class SkeletonDemoDb_t {
-            public const nint m_AnimCaptures = 0x0; // 
+            public const nint m_AnimCaptures = 0x0; // CUtlVector<SkeletonAnimCapture_t*>
             public const nint m_CameraTrack = 0x18; // CUtlVector<SkeletonAnimCapture_t::Camera_t>
             public const nint m_flRecordingTime = 0x30; // float32
         }
