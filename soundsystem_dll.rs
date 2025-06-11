@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -463,7 +463,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod SelectedEditItemInfo_t {
-                pub const m_EditItems: usize = 0x0; // 
+                pub const m_EditItems: usize = 0x0; // CUtlVector<SosEditItemInfo_t>
             }
             // Parent: None
             // Field count: 9

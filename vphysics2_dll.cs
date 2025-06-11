@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -135,7 +135,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_LocalRotation = 0x2E8; // CUtlVector<float32>
             public const nint m_LocalForce = 0x300; // CUtlVector<float32>
             public const nint m_TaperedCapsuleStretches = 0x318; // CUtlVector<FeTaperedCapsuleStretch_t>
-            public const nint m_TaperedCapsuleRigids = 0x330; // CUtlVector<FeTaperedCapsuleRigid_t>
+            public const nint m_TaperedCapsuleRigids = 0x330; // 
             public const nint m_SphereRigids = 0x348; // CUtlVector<FeSphereRigid_t>
             public const nint m_WorldCollisionNodes = 0x360; // CUtlVector<uint16>
             public const nint m_TreeParents = 0x378; // CUtlVector<uint16>
@@ -160,14 +160,14 @@ namespace CS2Dumper.Schemas {
             public const nint m_nExtraGoalIterations = 0x4E6; // uint8
             public const nint m_nExtraIterations = 0x4E7; // uint8
             public const nint m_SDFRigids = 0x4E8; // CUtlVector<FeSDFRigid_t>
-            public const nint m_BoxRigids = 0x500; // CUtlVector<FeBoxRigid_t>
-            public const nint m_DynNodeVertexSet = 0x518; // CUtlVector<uint8>
+            public const nint m_BoxRigids = 0x500; // 
+            public const nint m_DynNodeVertexSet = 0x518; // 
             public const nint m_VertexSetNames = 0x530; // CUtlVector<uint32>
-            public const nint m_RigidColliderPriorities = 0x548; // 
+            public const nint m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
             public const nint m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
-            public const nint m_MorphSetData = 0x578; // CUtlVector<uint8>
-            public const nint m_VertexMaps = 0x590; // 
-            public const nint m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
+            public const nint m_MorphSetData = 0x578; // 
+            public const nint m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
+            public const nint m_VertexMapValues = 0x5A8; // 
             public const nint m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
             public const nint m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
             public const nint m_LockToGoal = 0x5F0; // CUtlVector<uint16>
@@ -443,7 +443,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
             public const nint m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
             public const nint m_Wings = 0x60; // CUtlVector<RnWing_t>
-            public const nint m_Materials = 0x78; // CUtlVector<uint8>
+            public const nint m_Materials = 0x78; // 
             public const nint m_vOrthographicAreas = 0x90; // Vector
             public const nint m_nFlags = 0x9C; // uint32
             public const nint m_nDebugFlags = 0xA0; // uint32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -92,7 +92,7 @@ pub mod cs2_dumper {
                 pub const m_flags: usize = 0x8; // uint32
                 pub const m_pInfo: usize = 0x10; // EntComponentInfo_t*
                 pub const m_nPriority: usize = 0x18; // int32
-                pub const m_pNext: usize = 0x20; // CEntityComponentHelper*
+                pub const m_pNext: usize = 0x20; // 
             }
             // Parent: None
             // Field count: 1
@@ -283,7 +283,7 @@ pub mod cs2_dumper {
                 pub const m_pNetworkDataReferencedPtrPropDescription: usize = 0x18; // char*
                 pub const m_nRuntimeIndex: usize = 0x20; // int32
                 pub const m_nFlags: usize = 0x24; // uint32
-                pub const m_pBaseClassComponentHelper: usize = 0x60; // CEntityComponentHelper*
+                pub const m_pBaseClassComponentHelper: usize = 0x60; // 
             }
             // Parent: None
             // Field count: 4

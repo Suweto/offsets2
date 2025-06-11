@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: engine2.dll
@@ -85,7 +85,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flags = 0x8; // uint32
             public const nint m_pInfo = 0x10; // EntComponentInfo_t*
             public const nint m_nPriority = 0x18; // int32
-            public const nint m_pNext = 0x20; // CEntityComponentHelper*
+            public const nint m_pNext = 0x20; // 
         }
         // Parent: None
         // Field count: 1
@@ -276,7 +276,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_pNetworkDataReferencedPtrPropDescription = 0x18; // char*
             public const nint m_nRuntimeIndex = 0x20; // int32
             public const nint m_nFlags = 0x24; // uint32
-            public const nint m_pBaseClassComponentHelper = 0x60; // CEntityComponentHelper*
+            public const nint m_pBaseClassComponentHelper = 0x60; // 
         }
         // Parent: None
         // Field count: 4

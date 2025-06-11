@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -447,7 +447,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class SelectedEditItemInfo_t {
-            public const nint m_EditItems = 0x0; // 
+            public const nint m_EditItems = 0x0; // CUtlVector<SosEditItemInfo_t>
         }
         // Parent: None
         // Field count: 9

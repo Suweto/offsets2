@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -140,7 +140,7 @@ pub mod cs2_dumper {
                 pub const m_LocalRotation: usize = 0x2E8; // CUtlVector<float32>
                 pub const m_LocalForce: usize = 0x300; // CUtlVector<float32>
                 pub const m_TaperedCapsuleStretches: usize = 0x318; // CUtlVector<FeTaperedCapsuleStretch_t>
-                pub const m_TaperedCapsuleRigids: usize = 0x330; // CUtlVector<FeTaperedCapsuleRigid_t>
+                pub const m_TaperedCapsuleRigids: usize = 0x330; // 
                 pub const m_SphereRigids: usize = 0x348; // CUtlVector<FeSphereRigid_t>
                 pub const m_WorldCollisionNodes: usize = 0x360; // CUtlVector<uint16>
                 pub const m_TreeParents: usize = 0x378; // CUtlVector<uint16>
@@ -165,14 +165,14 @@ pub mod cs2_dumper {
                 pub const m_nExtraGoalIterations: usize = 0x4E6; // uint8
                 pub const m_nExtraIterations: usize = 0x4E7; // uint8
                 pub const m_SDFRigids: usize = 0x4E8; // CUtlVector<FeSDFRigid_t>
-                pub const m_BoxRigids: usize = 0x500; // CUtlVector<FeBoxRigid_t>
-                pub const m_DynNodeVertexSet: usize = 0x518; // CUtlVector<uint8>
+                pub const m_BoxRigids: usize = 0x500; // 
+                pub const m_DynNodeVertexSet: usize = 0x518; // 
                 pub const m_VertexSetNames: usize = 0x530; // CUtlVector<uint32>
-                pub const m_RigidColliderPriorities: usize = 0x548; // 
+                pub const m_RigidColliderPriorities: usize = 0x548; // CUtlVector<FeRigidColliderIndices_t>
                 pub const m_MorphLayers: usize = 0x560; // CUtlVector<FeMorphLayerDepr_t>
-                pub const m_MorphSetData: usize = 0x578; // CUtlVector<uint8>
-                pub const m_VertexMaps: usize = 0x590; // 
-                pub const m_VertexMapValues: usize = 0x5A8; // CUtlVector<uint8>
+                pub const m_MorphSetData: usize = 0x578; // 
+                pub const m_VertexMaps: usize = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                pub const m_VertexMapValues: usize = 0x5A8; // 
                 pub const m_Effects: usize = 0x5C0; // CUtlVector<FeEffectDesc_t>
                 pub const m_LockToParent: usize = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 pub const m_LockToGoal: usize = 0x5F0; // CUtlVector<uint16>
@@ -448,7 +448,7 @@ pub mod cs2_dumper {
                 pub const m_Vertices: usize = 0x30; // CUtlVectorSIMDPaddedVector
                 pub const m_Triangles: usize = 0x48; // CUtlVector<RnTriangle_t>
                 pub const m_Wings: usize = 0x60; // CUtlVector<RnWing_t>
-                pub const m_Materials: usize = 0x78; // CUtlVector<uint8>
+                pub const m_Materials: usize = 0x78; // 
                 pub const m_vOrthographicAreas: usize = 0x90; // Vector
                 pub const m_nFlags: usize = 0x9C; // uint32
                 pub const m_nDebugFlags: usize = 0xA0; // uint32

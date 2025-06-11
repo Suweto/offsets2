@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -653,7 +653,7 @@ pub mod cs2_dumper {
                 pub const m_MethodName: usize = 0x48; // CUtlSymbolLarge
                 pub const m_GameBlackboard: usize = 0x50; // CUtlSymbolLarge
                 pub const m_ExpectedArgs: usize = 0x58; // CUtlLeanVector<CPulseRuntimeMethodArg>
-                pub const m_nAsyncCallMode: usize = 0x68; // PulseMethodCallMode_t
+                pub const m_nAsyncCallMode: usize = 0x68; // 
                 pub const m_OnFinished: usize = 0x70; // CPulse_ResumePoint
             }
             // Parent: CBasePulseGraphInstance
@@ -678,7 +678,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod PulseGraphExecutionHistoryEntry_t {
-                pub const nCursorID: usize = 0x0; // PulseCursorID_t
+                pub const nCursorID: usize = 0x0; // 
                 pub const nEditorID: usize = 0x4; // PulseDocNodeID_t
                 pub const flExecTime: usize = 0x8; // float32
                 pub const unFlags: usize = 0xC; // uint32
@@ -739,7 +739,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod PGDInstruction_t {
-                pub const m_nCode: usize = 0x0; // PulseInstructionCode_t
+                pub const m_nCode: usize = 0x0; // 
                 pub const m_nVar: usize = 0x4; // PulseRuntimeVarIndex_t
                 pub const m_nReg0: usize = 0x8; // PulseRuntimeRegisterIndex_t
                 pub const m_nReg1: usize = 0xA; // PulseRuntimeRegisterIndex_t
@@ -862,7 +862,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulse_DomainValue {
-                pub const m_nType: usize = 0x0; // 
+                pub const m_nType: usize = 0x0; // PulseDomainValueType_t
                 pub const m_Value: usize = 0x8; // 
                 pub const m_ExpectedRuntimeType: usize = 0x10; // 
             }
@@ -985,7 +985,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulse_BlackboardReference {
-                pub const m_hBlackboardResource: usize = 0x0; // 
+                pub const m_hBlackboardResource: usize = 0x0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIPulseGraphDef>>
                 pub const m_BlackboardResource: usize = 0xE0; // CUtlSymbolLarge
                 pub const m_nNodeID: usize = 0xE8; // PulseDocNodeID_t
                 pub const m_NodeName: usize = 0xF0; // 
@@ -1126,7 +1126,7 @@ pub mod cs2_dumper {
             // MPulseEditorHeaderIcon
             pub mod CPulseCell_WaitForCursorsWithTag {
                 pub const m_bTagSelfWhenComplete: usize = 0x80; // bool
-                pub const m_nDesiredKillPriority: usize = 0x84; // 
+                pub const m_nDesiredKillPriority: usize = 0x84; // PulseCursorCancelPriority_t
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 2

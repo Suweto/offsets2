@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: scenesystem.dll
@@ -84,7 +84,7 @@ namespace CS2Dumper.Schemas {
         public static class CSSDSMsg_ViewTargetList {
             public const nint m_viewId = 0x0; // SceneViewId_t
             public const nint m_ViewName = 0x10; // CUtlString
-            public const nint m_Targets = 0x18; // CUtlVector<CSSDSMsg_ViewTarget>
+            public const nint m_Targets = 0x18; // 
         }
         // Parent: None
         // Field count: 2

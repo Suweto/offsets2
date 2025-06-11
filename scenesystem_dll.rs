@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -88,7 +88,7 @@ pub mod cs2_dumper {
             pub mod CSSDSMsg_ViewTargetList {
                 pub const m_viewId: usize = 0x0; // SceneViewId_t
                 pub const m_ViewName: usize = 0x10; // CUtlString
-                pub const m_Targets: usize = 0x18; // CUtlVector<CSSDSMsg_ViewTarget>
+                pub const m_Targets: usize = 0x18; // 
             }
             // Parent: None
             // Field count: 2

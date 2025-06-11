@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -931,7 +931,7 @@ pub mod cs2_dumper {
                 pub const m_flScalarAttributeTextureCoordScale: usize = 0x2F1C; // float32
                 pub const m_bReverseOrder: usize = 0x2F20; // bool
                 pub const m_bClosedLoop: usize = 0x2F21; // bool
-                pub const m_nOrientationType: usize = 0x2F24; // 
+                pub const m_nOrientationType: usize = 0x2F24; // ParticleOrientationChoiceList_t
                 pub const m_nVectorFieldForOrientation: usize = 0x2F28; // ParticleAttributeIndex_t
                 pub const m_bDrawAsOpaque: usize = 0x2F2C; // bool
                 pub const m_bGenerateNormals: usize = 0x2F2D; // bool
@@ -1113,7 +1113,7 @@ pub mod cs2_dumper {
                 pub const m_bUseVelocity: usize = 0x1E0; // bool
                 pub const m_bCullOnMiss: usize = 0x1E1; // bool
                 pub const m_bLifeAdjust: usize = 0x1E2; // bool
-                pub const m_RtEnvName: usize = 0x1E3; // 
+                pub const m_RtEnvName: usize = 0x1E3; // char[128]
                 pub const m_nRTEnvCP: usize = 0x264; // int32
                 pub const m_nComponent: usize = 0x268; // int32
             }
@@ -1226,7 +1226,7 @@ pub mod cs2_dumper {
                 pub const m_bBoundBox: usize = 0x1C4; // bool
                 pub const m_bOutside: usize = 0x1C5; // bool
                 pub const m_bUseBones: usize = 0x1C6; // bool
-                pub const m_HitboxSetName: usize = 0x1C7; // 
+                pub const m_HitboxSetName: usize = 0x1C7; // char[128]
                 pub const m_vecPosOffset: usize = 0x248; // CPerParticleVecInput
                 pub const m_fDrag: usize = 0x8C0; // float32
             }
@@ -1291,7 +1291,7 @@ pub mod cs2_dumper {
                 pub const m_nCropTextureOverride: usize = 0xF84; // ParticleSequenceCropOverride_t
                 pub const m_vecTexturesInput: usize = 0xF88; // CUtlVector<TextureGroup_t>
                 pub const m_flAnimationRate: usize = 0xFA0; // float32
-                pub const m_nAnimationType: usize = 0xFA4; // AnimationType_t
+                pub const m_nAnimationType: usize = 0xFA4; // 
                 pub const m_bAnimateInFPS: usize = 0xFA8; // bool
                 pub const m_flMotionVectorScaleU: usize = 0xFB0; // CParticleCollectionRendererFloatInput
                 pub const m_flMotionVectorScaleV: usize = 0x1110; // CParticleCollectionRendererFloatInput
@@ -1300,7 +1300,7 @@ pub mod cs2_dumper {
                 pub const m_flDiffuseClamp: usize = 0x1530; // CParticleCollectionRendererFloatInput
                 pub const m_nLightingControlPoint: usize = 0x1690; // int32
                 pub const m_nSelfIllumPerParticle: usize = 0x1694; // ParticleAttributeIndex_t
-                pub const m_nOutputBlendMode: usize = 0x1698; // 
+                pub const m_nOutputBlendMode: usize = 0x1698; // ParticleOutputBlendMode_t
                 pub const m_bGammaCorrectVertexColors: usize = 0x169C; // bool
                 pub const m_bSaturateColorPreAlphaBlend: usize = 0x169D; // bool
                 pub const m_flAddSelfAmount: usize = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1326,9 +1326,9 @@ pub mod cs2_dumper {
                 pub const m_bOnlyRenderInEffectsWaterPass: usize = 0x21C9; // bool
                 pub const m_bUseMixedResolutionRendering: usize = 0x21CA; // bool
                 pub const m_bOnlyRenderInEffecsGameOverlay: usize = 0x21CB; // bool
-                pub const m_stencilTestID: usize = 0x21CC; // 
+                pub const m_stencilTestID: usize = 0x21CC; // char[128]
                 pub const m_bStencilTestExclude: usize = 0x224C; // bool
-                pub const m_stencilWriteID: usize = 0x224D; // 
+                pub const m_stencilWriteID: usize = 0x224D; // char[128]
                 pub const m_bWriteStencilOnDepthPass: usize = 0x22CD; // bool
                 pub const m_bWriteStencilOnDepthFail: usize = 0x22CE; // bool
                 pub const m_bReverseZBuffering: usize = 0x22CF; // bool
@@ -1419,7 +1419,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_SetControlPointPositionToTimeOfDayValue {
                 pub const m_nControlPointNumber: usize = 0x1C8; // int32
-                pub const m_pszTimeOfDayParameter: usize = 0x1CC; // 
+                pub const m_pszTimeOfDayParameter: usize = 0x1CC; // char[128]
                 pub const m_vecDefaultValue: usize = 0x24C; // Vector
             }
             // Parent: CParticleFunctionOperator
@@ -1474,14 +1474,14 @@ pub mod cs2_dumper {
                 pub const m_nInControlPointNumber: usize = 0x1C8; // int32
                 pub const m_nOutControlPointNumber: usize = 0x1CC; // int32
                 pub const m_nField: usize = 0x1D0; // int32
-                pub const m_nHitboxDataType: usize = 0x1D4; // ParticleHitboxDataSelection_t
+                pub const m_nHitboxDataType: usize = 0x1D4; // 
                 pub const m_flInputMin: usize = 0x1D8; // CParticleCollectionFloatInput
                 pub const m_flInputMax: usize = 0x338; // CParticleCollectionFloatInput
                 pub const m_flOutputMin: usize = 0x498; // CParticleCollectionFloatInput
                 pub const m_flOutputMax: usize = 0x5F8; // CParticleCollectionFloatInput
                 pub const m_nHeightControlPointNumber: usize = 0x758; // int32
                 pub const m_vecComparisonVelocity: usize = 0x760; // CParticleCollectionVecInput
-                pub const m_HitboxSetName: usize = 0xDD8; // 
+                pub const m_HitboxSetName: usize = 0xDD8; // char[128]
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 4
@@ -1554,7 +1554,7 @@ pub mod cs2_dumper {
                 pub const m_nControlPointNumber: usize = 0x1C8; // int32
                 pub const m_nDesiredHitbox: usize = 0x1CC; // int32
                 pub const m_vecHitBoxScale: usize = 0x1D0; // CParticleCollectionVecInput
-                pub const m_HitboxSetName: usize = 0x848; // 
+                pub const m_HitboxSetName: usize = 0x848; // char[128]
                 pub const m_bUseBones: usize = 0x8C8; // bool
                 pub const m_bUseClosestPointOnHitbox: usize = 0x8C9; // bool
                 pub const m_nTestType: usize = 0x8CC; // ClosestPointTestType_t
@@ -1618,7 +1618,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x6B8; // CPerParticleFloatInput
                 pub const m_flMaxTraceLength: usize = 0x818; // float32
                 pub const m_flLOSScale: usize = 0x81C; // float32
-                pub const m_CollisionGroupName: usize = 0x820; // 
+                pub const m_CollisionGroupName: usize = 0x820; // char[128]
                 pub const m_nTraceSet: usize = 0x8A0; // ParticleTraceSet_t
                 pub const m_bLOS: usize = 0x8A4; // bool
                 pub const m_nSetMethod: usize = 0x8A8; // ParticleSetMethod_t
@@ -1644,7 +1644,7 @@ pub mod cs2_dumper {
                 pub const m_bLoop: usize = 0x1D0; // bool
                 pub const m_bCPPairs: usize = 0x1D1; // bool
                 pub const m_bSaveOffset: usize = 0x1D2; // bool
-                pub const m_PathParams: usize = 0x1E0; // 
+                pub const m_PathParams: usize = 0x1E0; // CPathParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -1678,7 +1678,7 @@ pub mod cs2_dumper {
                 pub const m_flEmissionScale: usize = 0x5E8; // float32
                 pub const m_flScalePerParentParticle: usize = 0x5EC; // float32
                 pub const m_bInitFromKilledParentParticles: usize = 0x5F0; // bool
-                pub const m_nEventType: usize = 0x5F4; // 
+                pub const m_nEventType: usize = 0x5F4; // EventTypeSelection_t
                 pub const m_nSnapshotControlPoint: usize = 0x5F8; // int32
                 pub const m_nLimitPerUpdate: usize = 0x5FC; // int32
                 pub const m_bForceEmitOnFirstUpdate: usize = 0x600; // bool
@@ -1745,9 +1745,9 @@ pub mod cs2_dumper {
             pub mod C_OP_SetUserEvent {
                 pub const m_flInput: usize = 0x1C0; // CPerParticleFloatInput
                 pub const m_flRisingEdge: usize = 0x320; // CPerParticleFloatInput
-                pub const m_nRisingEventType: usize = 0x480; // 
+                pub const m_nRisingEventType: usize = 0x480; // EventTypeSelection_t
                 pub const m_flFallingEdge: usize = 0x488; // CPerParticleFloatInput
-                pub const m_nFallingEventType: usize = 0x5E8; // 
+                pub const m_nFallingEventType: usize = 0x5E8; // EventTypeSelection_t
             }
             // Parent: CParticleFunctionOperator
             // Field count: 2
@@ -1801,7 +1801,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_InitFromParentKilled {
                 pub const m_nAttributeToCopy: usize = 0x1C8; // ParticleAttributeIndex_t
-                pub const m_nEventType: usize = 0x1CC; // 
+                pub const m_nEventType: usize = 0x1CC; // EventTypeSelection_t
             }
             // Parent: CParticleFunctionRenderer
             // Field count: 0
@@ -2382,7 +2382,7 @@ pub mod cs2_dumper {
             pub mod ParticleNamedValueConfiguration_t {
                 pub const m_ConfigName: usize = 0x0; // CUtlString
                 pub const m_ConfigValue: usize = 0x8; // KeyValues3
-                pub const m_iAttachType: usize = 0x18; // ParticleAttachment_t
+                pub const m_iAttachType: usize = 0x18; // 
                 pub const m_BoundEntityPath: usize = 0x20; // CUtlString
                 pub const m_strEntityScope: usize = 0x28; // CUtlString
                 pub const m_strAttachmentName: usize = 0x30; // CUtlString
@@ -2427,7 +2427,7 @@ pub mod cs2_dumper {
                 pub const m_nParticlesToEmit: usize = 0x1C8; // CParticleCollectionFloatInput
                 pub const m_flStartTime: usize = 0x328; // CParticleCollectionFloatInput
                 pub const m_flInitFromKilledParentParticles: usize = 0x488; // float32
-                pub const m_nEventType: usize = 0x48C; // 
+                pub const m_nEventType: usize = 0x48C; // EventTypeSelection_t
                 pub const m_flParentParticleScale: usize = 0x490; // CParticleCollectionFloatInput
                 pub const m_nMaxEmittedPerFrame: usize = 0x5F0; // int32
                 pub const m_nSnapshotControlPoint: usize = 0x5F4; // int32
@@ -2452,7 +2452,7 @@ pub mod cs2_dumper {
                 pub const m_flMaxTraceLength: usize = 0x1D8; // float32
                 pub const m_flTraceTolerance: usize = 0x1DC; // float32
                 pub const m_nMaxPlanes: usize = 0x1E0; // int32
-                pub const m_CollisionGroupName: usize = 0x1E8; // 
+                pub const m_CollisionGroupName: usize = 0x1E8; // char[128]
                 pub const m_nTraceSet: usize = 0x268; // ParticleTraceSet_t
                 pub const m_bIncludeWater: usize = 0x278; // bool
             }
@@ -2462,7 +2462,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CBaseTrailRenderer {
-                pub const m_nOrientationType: usize = 0x2AA8; // 
+                pub const m_nOrientationType: usize = 0x2AA8; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2AAC; // int32
                 pub const m_flMinSize: usize = 0x2AB0; // float32
                 pub const m_flMaxSize: usize = 0x2AB4; // float32
@@ -2508,7 +2508,7 @@ pub mod cs2_dumper {
                 pub const m_nRandomSeed: usize = 0x1CC; // int32
                 pub const m_bSetNormal: usize = 0x1D0; // bool
                 pub const m_bSetRadius: usize = 0x1D1; // bool
-                pub const m_nIndexType: usize = 0x1D4; // 
+                pub const m_nIndexType: usize = 0x1D4; // SnapshotIndexType_t
                 pub const m_flReadIndex: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flIncrement: usize = 0x338; // CParticleCollectionFloatInput
                 pub const m_nFullLoopIncrement: usize = 0x498; // CParticleCollectionFloatInput
@@ -2583,7 +2583,7 @@ pub mod cs2_dumper {
                 pub const m_flStartOffset: usize = 0x338; // float32
                 pub const m_flOffset: usize = 0x33C; // float32
                 pub const m_vecTraceDir: usize = 0x340; // Vector
-                pub const m_CollisionGroupName: usize = 0x34C; // 
+                pub const m_CollisionGroupName: usize = 0x34C; // char[128]
                 pub const m_nTraceSet: usize = 0x3CC; // ParticleTraceSet_t
                 pub const m_bSetToEndpoint: usize = 0x3D0; // bool
                 pub const m_bTraceToClosestSurface: usize = 0x3D1; // bool
@@ -2688,19 +2688,19 @@ pub mod cs2_dumper {
                 pub const m_pPrev: usize = 0x18; // CNewParticleEffect*
                 pub const m_pParticles: usize = 0x20; // IParticleCollection*
                 pub const m_pDebugName: usize = 0x28; // char*
-                pub const m_bDontRemove: usize = 0x0; // 
-                pub const m_bRemove: usize = 0x0; // 
-                pub const m_bNeedsBBoxUpdate: usize = 0x0; // 
-                pub const m_bIsFirstFrame: usize = 0x0; // 
-                pub const m_bAutoUpdateBBox: usize = 0x0; // 
-                pub const m_bAllocated: usize = 0x0; // 
-                pub const m_bSimulate: usize = 0x0; // 
-                pub const m_bShouldPerformCullCheck: usize = 0x0; // 
-                pub const m_bForceNoDraw: usize = 0x0; // 
-                pub const m_bShouldSave: usize = 0x0; // 
-                pub const m_bDisableAggregation: usize = 0x0; // 
-                pub const m_bShouldSimulateDuringGamePaused: usize = 0x0; // 
-                pub const m_bShouldCheckFoW: usize = 0x0; // 
+                pub const m_bDontRemove: usize = 0x0; // bitfield:1
+                pub const m_bRemove: usize = 0x0; // bitfield:1
+                pub const m_bNeedsBBoxUpdate: usize = 0x0; // bitfield:1
+                pub const m_bIsFirstFrame: usize = 0x0; // bitfield:1
+                pub const m_bAutoUpdateBBox: usize = 0x0; // bitfield:1
+                pub const m_bAllocated: usize = 0x0; // bitfield:1
+                pub const m_bSimulate: usize = 0x0; // bitfield:1
+                pub const m_bShouldPerformCullCheck: usize = 0x0; // bitfield:1
+                pub const m_bForceNoDraw: usize = 0x0; // bitfield:1
+                pub const m_bShouldSave: usize = 0x0; // bitfield:1
+                pub const m_bDisableAggregation: usize = 0x0; // bitfield:1
+                pub const m_bShouldSimulateDuringGamePaused: usize = 0x0; // bitfield:1
+                pub const m_bShouldCheckFoW: usize = 0x0; // bitfield:1
                 pub const m_vSortOrigin: usize = 0x40; // Vector
                 pub const m_flScale: usize = 0x4C; // float32
                 pub const m_hOwner: usize = 0x50; // PARTICLE_EHANDLE__*
@@ -2793,7 +2793,7 @@ pub mod cs2_dumper {
             pub mod ParticleNamedValueSource_t {
                 pub const m_Name: usize = 0x0; // CUtlString
                 pub const m_IsPublic: usize = 0x8; // bool
-                pub const m_ValueType: usize = 0xC; // 
+                pub const m_ValueType: usize = 0xC; // PulseValueType_t
                 pub const m_DefaultConfig: usize = 0x10; // ParticleNamedValueConfiguration_t
                 pub const m_NamedConfigs: usize = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
             }
@@ -3083,7 +3083,7 @@ pub mod cs2_dumper {
             pub mod C_INIT_PositionPlaceOnGround {
                 pub const m_flOffset: usize = 0x1C8; // CPerParticleFloatInput
                 pub const m_flMaxTraceLength: usize = 0x328; // CPerParticleFloatInput
-                pub const m_CollisionGroupName: usize = 0x488; // 
+                pub const m_CollisionGroupName: usize = 0x488; // char[128]
                 pub const m_nTraceSet: usize = 0x508; // ParticleTraceSet_t
                 pub const m_nTraceMissBehavior: usize = 0x518; // ParticleTraceMissBehavior_t
                 pub const m_bIncludeWater: usize = 0x51C; // bool
@@ -3127,7 +3127,7 @@ pub mod cs2_dumper {
                 pub const m_nCollisionMode: usize = 0x1D0; // ParticleCollisionMode_t
                 pub const m_nCollisionModeMin: usize = 0x1D4; // ParticleCollisionMode_t
                 pub const m_nTraceSet: usize = 0x1D8; // ParticleTraceSet_t
-                pub const m_CollisionGroupName: usize = 0x1DC; // 
+                pub const m_CollisionGroupName: usize = 0x1DC; // char[128]
                 pub const m_bWorldOnly: usize = 0x25C; // bool
                 pub const m_bBrushOnly: usize = 0x25D; // bool
                 pub const m_bIncludeWater: usize = 0x25E; // bool
@@ -3390,7 +3390,7 @@ pub mod cs2_dumper {
                 pub const m_bBoundBox: usize = 0x1C4; // bool
                 pub const m_bCullOutside: usize = 0x1C5; // bool
                 pub const m_bUseBones: usize = 0x1C6; // bool
-                pub const m_HitboxSetName: usize = 0x1C7; // 
+                pub const m_HitboxSetName: usize = 0x1C7; // char[128]
             }
             // Parent: CParticleFunctionOperator
             // Field count: 4
@@ -3498,7 +3498,7 @@ pub mod cs2_dumper {
                 pub const m_flMaxTraceLength: usize = 0x1EC; // float32
                 pub const m_flLOSScale: usize = 0x1F0; // float32
                 pub const m_bLOS: usize = 0x1F4; // bool
-                pub const m_CollisionGroupName: usize = 0x1F5; // 
+                pub const m_CollisionGroupName: usize = 0x1F5; // char[128]
                 pub const m_nTraceSet: usize = 0x278; // ParticleTraceSet_t
                 pub const m_nSetParent: usize = 0x27C; // ParticleParentSetMode_t
             }
@@ -3523,7 +3523,7 @@ pub mod cs2_dumper {
                 pub const m_flMaxDistance0: usize = 0x1C4; // float32
                 pub const m_flMaxDistanceMid: usize = 0x1C8; // float32
                 pub const m_flMaxDistance1: usize = 0x1CC; // float32
-                pub const m_PathParameters: usize = 0x1D0; // 
+                pub const m_PathParameters: usize = 0x1D0; // CPathParameters
                 pub const m_flTravelTime: usize = 0x210; // float32
                 pub const m_nFieldScale: usize = 0x214; // ParticleAttributeIndex_t
                 pub const m_nManualTField: usize = 0x218; // ParticleAttributeIndex_t
@@ -3561,7 +3561,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_CreateAlongPath {
                 pub const m_fMaxDistance: usize = 0x1C8; // float32
-                pub const m_PathParams: usize = 0x1D0; // 
+                pub const m_PathParams: usize = 0x1D0; // CPathParameters
                 pub const m_bUseRandomCPs: usize = 0x210; // bool
                 pub const m_vEndOffset: usize = 0x214; // Vector
                 pub const m_bSaveOffset: usize = 0x220; // bool
@@ -3572,8 +3572,8 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_SetControlPointsToModelParticles {
-                pub const m_HitboxSetName: usize = 0x1C0; // 
-                pub const m_AttachmentName: usize = 0x240; // 
+                pub const m_HitboxSetName: usize = 0x1C0; // char[128]
+                pub const m_AttachmentName: usize = 0x240; // char[128]
                 pub const m_nFirstControlPoint: usize = 0x2C0; // int32
                 pub const m_nNumControlPoints: usize = 0x2C4; // int32
                 pub const m_nFirstSourcePoint: usize = 0x2C8; // int32
@@ -3607,7 +3607,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderLights {
                 pub const m_flAnimationRate: usize = 0x218; // float32
-                pub const m_nAnimationType: usize = 0x21C; // AnimationType_t
+                pub const m_nAnimationType: usize = 0x21C; // 
                 pub const m_bAnimateInFPS: usize = 0x220; // bool
                 pub const m_flMinSize: usize = 0x224; // float32
                 pub const m_flMaxSize: usize = 0x228; // float32
@@ -3733,7 +3733,7 @@ pub mod cs2_dumper {
                 pub const m_nBiasType: usize = 0x1028; // ParticleHitboxBiasType_t
                 pub const m_bLocalCoords: usize = 0x102C; // bool
                 pub const m_bPreferMovingBoxes: usize = 0x102D; // bool
-                pub const m_HitboxSetName: usize = 0x102E; // 
+                pub const m_HitboxSetName: usize = 0x102E; // char[128]
                 pub const m_flHitboxVelocityScale: usize = 0x10B0; // CParticleCollectionFloatInput
                 pub const m_flMaxBoneVelocity: usize = 0x1210; // CParticleCollectionFloatInput
             }
@@ -3745,7 +3745,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             pub mod CParticleVariableRef {
                 pub const m_variableName: usize = 0x0; // CKV3MemberNameWithStorage
-                pub const m_variableType: usize = 0x38; // 
+                pub const m_variableType: usize = 0x38; // PulseValueType_t
             }
             // Parent: CParticleFunctionOperator
             // Field count: 6
@@ -3793,7 +3793,7 @@ pub mod cs2_dumper {
                 pub const m_bLoop: usize = 0x488; // bool
                 pub const m_bCPPairs: usize = 0x489; // bool
                 pub const m_bSaveOffset: usize = 0x48A; // bool
-                pub const m_PathParams: usize = 0x490; // 
+                pub const m_PathParams: usize = 0x490; // CPathParameters
             }
             // Parent: None
             // Field count: 2
@@ -3827,7 +3827,7 @@ pub mod cs2_dumper {
                 pub const m_flFadeStart: usize = 0x1C0; // float32
                 pub const m_flFadeEnd: usize = 0x1C4; // float32
                 pub const m_bCPPairs: usize = 0x1C8; // bool
-                pub const m_PathParams: usize = 0x1D0; // 
+                pub const m_PathParams: usize = 0x1D0; // CPathParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -3978,7 +3978,7 @@ pub mod cs2_dumper {
                 pub const m_flTolerance: usize = 0x324; // float32
                 pub const m_flTraceOffset: usize = 0x328; // float32
                 pub const m_flLerpRate: usize = 0x32C; // float32
-                pub const m_CollisionGroupName: usize = 0x330; // 
+                pub const m_CollisionGroupName: usize = 0x330; // char[128]
                 pub const m_nTraceSet: usize = 0x3B0; // ParticleTraceSet_t
                 pub const m_nRefCP1: usize = 0x3B4; // int32
                 pub const m_nRefCP2: usize = 0x3B8; // int32
@@ -4204,12 +4204,12 @@ pub mod cs2_dumper {
                 pub const m_flLifeTimeFadeEnd: usize = 0x28C; // float32
                 pub const m_flJumpThreshold: usize = 0x290; // float32
                 pub const m_flPrevPosScale: usize = 0x294; // float32
-                pub const m_HitboxSetName: usize = 0x298; // 
+                pub const m_HitboxSetName: usize = 0x298; // char[128]
                 pub const m_bRigid: usize = 0x318; // bool
                 pub const m_bUseBones: usize = 0x319; // bool
                 pub const m_nFieldOutput: usize = 0x31C; // ParticleAttributeIndex_t
                 pub const m_nFieldOutputPrev: usize = 0x320; // ParticleAttributeIndex_t
-                pub const m_nRotationSetType: usize = 0x324; // ParticleRotationLockType_t
+                pub const m_nRotationSetType: usize = 0x324; // 
                 pub const m_bRigidRotationLock: usize = 0x328; // bool
                 pub const m_vecRotation: usize = 0x330; // CPerParticleVecInput
                 pub const m_flRotLerp: usize = 0x9A8; // CPerParticleFloatInput
@@ -4336,7 +4336,7 @@ pub mod cs2_dumper {
                 pub const m_bIgnoreDt: usize = 0x1DA; // bool
                 pub const m_flMinNormalVelocity: usize = 0x1DC; // float32
                 pub const m_flMaxNormalVelocity: usize = 0x1E0; // float32
-                pub const m_nIndexType: usize = 0x1E4; // 
+                pub const m_nIndexType: usize = 0x1E4; // SnapshotIndexType_t
                 pub const m_flReadIndex: usize = 0x1E8; // CPerParticleFloatInput
                 pub const m_flIncrement: usize = 0x348; // float32
                 pub const m_nFullLoopIncrement: usize = 0x34C; // int32
@@ -4472,7 +4472,7 @@ pub mod cs2_dumper {
                 pub const m_vecDirectionBias: usize = 0x850; // Vector
                 pub const m_bMaintainHitbox: usize = 0x85C; // bool
                 pub const m_bUseBones: usize = 0x85D; // bool
-                pub const m_HitboxSetName: usize = 0x85E; // 
+                pub const m_HitboxSetName: usize = 0x85E; // char[128]
                 pub const m_flShellSize: usize = 0x8E0; // CParticleCollectionFloatInput
             }
             // Parent: CParticleFunctionOperator
@@ -4505,7 +4505,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_INIT_InitialRepulsionVelocity {
-                pub const m_CollisionGroupName: usize = 0x1C8; // 
+                pub const m_CollisionGroupName: usize = 0x1C8; // char[128]
                 pub const m_nTraceSet: usize = 0x248; // ParticleTraceSet_t
                 pub const m_vecOutputMin: usize = 0x24C; // Vector
                 pub const m_vecOutputMax: usize = 0x258; // Vector
@@ -4779,7 +4779,7 @@ pub mod cs2_dumper {
                 pub const m_vecTestNormal: usize = 0x1CC; // Vector
                 pub const m_bCullOnMiss: usize = 0x1D8; // bool
                 pub const m_bStickInsteadOfCull: usize = 0x1D9; // bool
-                pub const m_RtEnvName: usize = 0x1DA; // 
+                pub const m_RtEnvName: usize = 0x1DA; // char[128]
                 pub const m_nRTEnvCP: usize = 0x25C; // int32
                 pub const m_nComponent: usize = 0x260; // int32
             }
@@ -4960,7 +4960,7 @@ pub mod cs2_dumper {
                 pub const m_flBoneVelocity: usize = 0xA78; // float32
                 pub const m_flMaxBoneVelocity: usize = 0xA7C; // float32
                 pub const m_vecDirectionBias: usize = 0xA80; // CParticleCollectionVecInput
-                pub const m_HitboxSetName: usize = 0x10F8; // 
+                pub const m_HitboxSetName: usize = 0x10F8; // char[128]
                 pub const m_bLocalCoords: usize = 0x1178; // bool
                 pub const m_bUseBones: usize = 0x1179; // bool
                 pub const m_bUseMesh: usize = 0x117A; // bool
@@ -5152,7 +5152,7 @@ pub mod cs2_dumper {
                 pub const m_flTolerance: usize = 0x1CC; // float32
                 pub const m_bLoop: usize = 0x1D0; // bool
                 pub const m_bUseParticleCount: usize = 0x1D1; // bool
-                pub const m_PathParams: usize = 0x1E0; // 
+                pub const m_PathParams: usize = 0x1E0; // CPathParameters
             }
             // Parent: C_OP_RemapNamedModelElementEndCap
             // Field count: 0
@@ -5192,7 +5192,7 @@ pub mod cs2_dumper {
                 pub const m_flFadeStart: usize = 0x1C4; // float32
                 pub const m_flFadeEnd: usize = 0x1C8; // float32
                 pub const m_bCPPairs: usize = 0x1CC; // bool
-                pub const m_PathParams: usize = 0x1D0; // 
+                pub const m_PathParams: usize = 0x1D0; // CPathParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 7
@@ -5334,7 +5334,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x5E8; // CPerParticleFloatInput
                 pub const m_TransformStart: usize = 0x748; // CParticleTransformInput
                 pub const m_bLOS: usize = 0x7B0; // bool
-                pub const m_CollisionGroupName: usize = 0x7B1; // 
+                pub const m_CollisionGroupName: usize = 0x7B1; // char[128]
                 pub const m_nTraceSet: usize = 0x834; // ParticleTraceSet_t
                 pub const m_flMaxTraceLength: usize = 0x838; // float32
                 pub const m_flLOSScale: usize = 0x83C; // float32
@@ -5537,7 +5537,7 @@ pub mod cs2_dumper {
                 pub const m_flVelocityMin: usize = 0x1C8; // float32
                 pub const m_flVelocityMax: usize = 0x1CC; // float32
                 pub const m_nControlPointNumber: usize = 0x1D0; // int32
-                pub const m_HitboxSetName: usize = 0x1D4; // 
+                pub const m_HitboxSetName: usize = 0x1D4; // char[128]
                 pub const m_bUseBones: usize = 0x254; // bool
             }
             // Parent: CParticleFunctionOperator
@@ -5599,7 +5599,7 @@ pub mod cs2_dumper {
                 pub const m_flMaxTraceLength: usize = 0x1C4; // float32
                 pub const m_flTolerance: usize = 0x1C8; // float32
                 pub const m_flTraceOffset: usize = 0x1CC; // float32
-                pub const m_CollisionGroupName: usize = 0x1D0; // 
+                pub const m_CollisionGroupName: usize = 0x1D0; // char[128]
                 pub const m_nTraceSet: usize = 0x250; // ParticleTraceSet_t
                 pub const m_nInputCP: usize = 0x254; // int32
                 pub const m_nOutputCP: usize = 0x258; // int32
@@ -5835,7 +5835,7 @@ pub mod cs2_dumper {
                 pub const m_flLifeTimeLerpStart: usize = 0x28C; // float32
                 pub const m_flLifeTimeLerpEnd: usize = 0x290; // float32
                 pub const m_flPrevPosScale: usize = 0x294; // float32
-                pub const m_HitboxSetName: usize = 0x298; // 
+                pub const m_HitboxSetName: usize = 0x298; // char[128]
                 pub const m_bUseBones: usize = 0x318; // bool
                 pub const m_nLerpType: usize = 0x31C; // HitboxLerpType_t
                 pub const m_flInterpolation: usize = 0x320; // CPerParticleFloatInput
@@ -6068,7 +6068,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x5F0; // CPerParticleFloatInput
                 pub const m_nStartCP: usize = 0x750; // int32
                 pub const m_bLOS: usize = 0x754; // bool
-                pub const m_CollisionGroupName: usize = 0x755; // 
+                pub const m_CollisionGroupName: usize = 0x755; // char[128]
                 pub const m_nTraceSet: usize = 0x7D8; // ParticleTraceSet_t
                 pub const m_flMaxTraceLength: usize = 0x7E0; // CPerParticleFloatInput
                 pub const m_flLOSScale: usize = 0x940; // float32
@@ -6354,7 +6354,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RemapModelVolumetoCP {
-                pub const m_nBBoxType: usize = 0x1C8; // BBoxVolumeType_t
+                pub const m_nBBoxType: usize = 0x1C8; // 
                 pub const m_nInControlPointNumber: usize = 0x1CC; // int32
                 pub const m_nOutControlPointNumber: usize = 0x1D0; // int32
                 pub const m_nOutControlPointMaxNumber: usize = 0x1D4; // int32
@@ -6383,7 +6383,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod ParticleControlPointDriver_t {
                 pub const m_iControlPoint: usize = 0x0; // int32
-                pub const m_iAttachType: usize = 0x4; // ParticleAttachment_t
+                pub const m_iAttachType: usize = 0x4; // 
                 pub const m_attachmentName: usize = 0x8; // CUtlString
                 pub const m_vecOffset: usize = 0x10; // Vector
                 pub const m_angOffset: usize = 0x1C; // QAngle
@@ -6481,7 +6481,7 @@ pub mod cs2_dumper {
                 pub const m_bBoundBox: usize = 0x1CC; // bool
                 pub const m_bCullOutside: usize = 0x1CD; // bool
                 pub const m_bUseBones: usize = 0x1CE; // bool
-                pub const m_HitboxSetName: usize = 0x1CF; // 
+                pub const m_HitboxSetName: usize = 0x1CF; // char[128]
             }
             // Parent: CBaseRendererSource2
             // Field count: 28
@@ -6490,7 +6490,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderSprites {
                 pub const m_nSequenceOverride: usize = 0x2AA8; // CParticleCollectionRendererFloatInput
-                pub const m_nOrientationType: usize = 0x2C08; // 
+                pub const m_nOrientationType: usize = 0x2C08; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2C0C; // int32
                 pub const m_bUseYawWithNormalAligned: usize = 0x2C10; // bool
                 pub const m_flMinSize: usize = 0x2C18; // CParticleCollectionRendererFloatInput
@@ -6613,7 +6613,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderMaterialProxy {
                 pub const m_nMaterialControlPoint: usize = 0x210; // int32
-                pub const m_nProxyType: usize = 0x214; // MaterialProxyType_t
+                pub const m_nProxyType: usize = 0x214; // 
                 pub const m_MaterialVars: usize = 0x218; // CUtlVector<MaterialVariable_t>
                 pub const m_hOverrideMaterial: usize = 0x230; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 pub const m_flMaterialOverrideEnabled: usize = 0x238; // CParticleCollectionFloatInput

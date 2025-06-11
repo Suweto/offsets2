@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #pragma once
 
@@ -646,7 +646,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_MethodName = 0x48; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_GameBlackboard = 0x50; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_ExpectedArgs = 0x58; // CUtlLeanVector<CPulseRuntimeMethodArg>
-                constexpr std::ptrdiff_t m_nAsyncCallMode = 0x68; // PulseMethodCallMode_t
+                constexpr std::ptrdiff_t m_nAsyncCallMode = 0x68; // 
                 constexpr std::ptrdiff_t m_OnFinished = 0x70; // CPulse_ResumePoint
             }
             // Parent: CBasePulseGraphInstance
@@ -671,7 +671,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace PulseGraphExecutionHistoryEntry_t {
-                constexpr std::ptrdiff_t nCursorID = 0x0; // PulseCursorID_t
+                constexpr std::ptrdiff_t nCursorID = 0x0; // 
                 constexpr std::ptrdiff_t nEditorID = 0x4; // PulseDocNodeID_t
                 constexpr std::ptrdiff_t flExecTime = 0x8; // float32
                 constexpr std::ptrdiff_t unFlags = 0xC; // uint32
@@ -732,7 +732,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace PGDInstruction_t {
-                constexpr std::ptrdiff_t m_nCode = 0x0; // PulseInstructionCode_t
+                constexpr std::ptrdiff_t m_nCode = 0x0; // 
                 constexpr std::ptrdiff_t m_nVar = 0x4; // PulseRuntimeVarIndex_t
                 constexpr std::ptrdiff_t m_nReg0 = 0x8; // PulseRuntimeRegisterIndex_t
                 constexpr std::ptrdiff_t m_nReg1 = 0xA; // PulseRuntimeRegisterIndex_t
@@ -855,7 +855,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPulse_DomainValue {
-                constexpr std::ptrdiff_t m_nType = 0x0; // 
+                constexpr std::ptrdiff_t m_nType = 0x0; // PulseDomainValueType_t
                 constexpr std::ptrdiff_t m_Value = 0x8; // 
                 constexpr std::ptrdiff_t m_ExpectedRuntimeType = 0x10; // 
             }
@@ -978,7 +978,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPulse_BlackboardReference {
-                constexpr std::ptrdiff_t m_hBlackboardResource = 0x0; // 
+                constexpr std::ptrdiff_t m_hBlackboardResource = 0x0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIPulseGraphDef>>
                 constexpr std::ptrdiff_t m_BlackboardResource = 0xE0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_nNodeID = 0xE8; // PulseDocNodeID_t
                 constexpr std::ptrdiff_t m_NodeName = 0xF0; // 
@@ -1119,7 +1119,7 @@ namespace cs2_dumper {
             // MPulseEditorHeaderIcon
             namespace CPulseCell_WaitForCursorsWithTag {
                 constexpr std::ptrdiff_t m_bTagSelfWhenComplete = 0x80; // bool
-                constexpr std::ptrdiff_t m_nDesiredKillPriority = 0x84; // 
+                constexpr std::ptrdiff_t m_nDesiredKillPriority = 0x84; // PulseCursorCancelPriority_t
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 2

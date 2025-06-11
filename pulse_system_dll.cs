@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -641,7 +641,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_MethodName = 0x48; // CUtlSymbolLarge
             public const nint m_GameBlackboard = 0x50; // CUtlSymbolLarge
             public const nint m_ExpectedArgs = 0x58; // CUtlLeanVector<CPulseRuntimeMethodArg>
-            public const nint m_nAsyncCallMode = 0x68; // PulseMethodCallMode_t
+            public const nint m_nAsyncCallMode = 0x68; // 
             public const nint m_OnFinished = 0x70; // CPulse_ResumePoint
         }
         // Parent: CBasePulseGraphInstance
@@ -666,7 +666,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class PulseGraphExecutionHistoryEntry_t {
-            public const nint nCursorID = 0x0; // PulseCursorID_t
+            public const nint nCursorID = 0x0; // 
             public const nint nEditorID = 0x4; // PulseDocNodeID_t
             public const nint flExecTime = 0x8; // float32
             public const nint unFlags = 0xC; // uint32
@@ -727,7 +727,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class PGDInstruction_t {
-            public const nint m_nCode = 0x0; // PulseInstructionCode_t
+            public const nint m_nCode = 0x0; // 
             public const nint m_nVar = 0x4; // PulseRuntimeVarIndex_t
             public const nint m_nReg0 = 0x8; // PulseRuntimeRegisterIndex_t
             public const nint m_nReg1 = 0xA; // PulseRuntimeRegisterIndex_t
@@ -850,7 +850,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulse_DomainValue {
-            public const nint m_nType = 0x0; // 
+            public const nint m_nType = 0x0; // PulseDomainValueType_t
             public const nint m_Value = 0x8; // 
             public const nint m_ExpectedRuntimeType = 0x10; // 
         }
@@ -973,7 +973,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulse_BlackboardReference {
-            public const nint m_hBlackboardResource = 0x0; // 
+            public const nint m_hBlackboardResource = 0x0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIPulseGraphDef>>
             public const nint m_BlackboardResource = 0xE0; // CUtlSymbolLarge
             public const nint m_nNodeID = 0xE8; // PulseDocNodeID_t
             public const nint m_NodeName = 0xF0; // 
@@ -1114,7 +1114,7 @@ namespace CS2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         public static class CPulseCell_WaitForCursorsWithTag {
             public const nint m_bTagSelfWhenComplete = 0x80; // bool
-            public const nint m_nDesiredKillPriority = 0x84; // 
+            public const nint m_nDesiredKillPriority = 0x84; // PulseCursorCancelPriority_t
         }
         // Parent: CPulseCell_BaseFlow
         // Field count: 2

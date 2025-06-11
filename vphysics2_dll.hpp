@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-15 23:04:52.783992800 UTC
+// 2025-06-11 02:40:16.412657800 UTC
 
 #pragma once
 
@@ -140,7 +140,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_LocalRotation = 0x2E8; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_LocalForce = 0x300; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_TaperedCapsuleStretches = 0x318; // CUtlVector<FeTaperedCapsuleStretch_t>
-                constexpr std::ptrdiff_t m_TaperedCapsuleRigids = 0x330; // CUtlVector<FeTaperedCapsuleRigid_t>
+                constexpr std::ptrdiff_t m_TaperedCapsuleRigids = 0x330; // 
                 constexpr std::ptrdiff_t m_SphereRigids = 0x348; // CUtlVector<FeSphereRigid_t>
                 constexpr std::ptrdiff_t m_WorldCollisionNodes = 0x360; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_TreeParents = 0x378; // CUtlVector<uint16>
@@ -165,14 +165,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nExtraGoalIterations = 0x4E6; // uint8
                 constexpr std::ptrdiff_t m_nExtraIterations = 0x4E7; // uint8
                 constexpr std::ptrdiff_t m_SDFRigids = 0x4E8; // CUtlVector<FeSDFRigid_t>
-                constexpr std::ptrdiff_t m_BoxRigids = 0x500; // CUtlVector<FeBoxRigid_t>
-                constexpr std::ptrdiff_t m_DynNodeVertexSet = 0x518; // CUtlVector<uint8>
+                constexpr std::ptrdiff_t m_BoxRigids = 0x500; // 
+                constexpr std::ptrdiff_t m_DynNodeVertexSet = 0x518; // 
                 constexpr std::ptrdiff_t m_VertexSetNames = 0x530; // CUtlVector<uint32>
-                constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // 
+                constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
                 constexpr std::ptrdiff_t m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
-                constexpr std::ptrdiff_t m_MorphSetData = 0x578; // CUtlVector<uint8>
-                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // 
-                constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
+                constexpr std::ptrdiff_t m_MorphSetData = 0x578; // 
+                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // 
                 constexpr std::ptrdiff_t m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
                 constexpr std::ptrdiff_t m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 constexpr std::ptrdiff_t m_LockToGoal = 0x5F0; // CUtlVector<uint16>
@@ -448,7 +448,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
                 constexpr std::ptrdiff_t m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
                 constexpr std::ptrdiff_t m_Wings = 0x60; // CUtlVector<RnWing_t>
-                constexpr std::ptrdiff_t m_Materials = 0x78; // CUtlVector<uint8>
+                constexpr std::ptrdiff_t m_Materials = 0x78; // 
                 constexpr std::ptrdiff_t m_vOrthographicAreas = 0x90; // Vector
                 constexpr std::ptrdiff_t m_nFlags = 0x9C; // uint32
                 constexpr std::ptrdiff_t m_nDebugFlags = 0xA0; // uint32
